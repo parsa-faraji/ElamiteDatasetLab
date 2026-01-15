@@ -1,0 +1,8417 @@
+{
+  "nodes": [
+    {
+      "id": "u2-me",
+      "word": "u2-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "u2",
+      "word": "u2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ku-ši-ih",
+      "word": "ku-ši-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(m)un-taš-dingir-gal",
+      "word": "(m)un-taš-dingir-gal",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ša-ak",
+      "word": "ša-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "an-za-an",
+      "word": "an-za-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-ak",
+      "word": "a-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "šu-šu-un-ka",
+      "word": "šu-šu-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "su-un-ki-ik",
+      "word": "su-un-ki-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "si-ia-an",
+      "word": "si-ia-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "tu4-ur",
+      "word": "tu4-ur",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "te-la-ak-ni",
+      "word": "te-la-ak-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "dingir-gal",
+      "word": "dingir-gal",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)in-šu-uš-na-ak",
+      "word": "(d)in-šu-uš-na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "in",
+      "word": "in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "hu-ut-tak-ha-li-ik",
+      "word": "hu-ut-tak-ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "du-ni-ih",
+      "word": "du-ni-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "u2-pa-at",
+      "word": "u2-pa-at",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-ih",
+      "word": "hi-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "hu-us-si-ip-me",
+      "word": "hu-us-si-ip-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "si-ia-an-ku-uk-ra",
+      "word": "si-ia-an-ku-uk-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "a-gi",
+      "word": "a-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "li-na",
+      "word": "li-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(md)hu-um-ban-nu-me-na-gi",
+      "word": "(md)hu-um-ban-nu-me-na-gi",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "[…]",
+      "word": "[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "si-it-me",
+      "word": "si-it-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ir",
+      "word": "ir",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "tu4-ni-ih",
+      "word": "tu4-ni-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-ia-an-ku-uk-pa",
+      "word": "si-ia-an-ku-uk-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "zu-un-ki-ik",
+      "word": "zu-un-ki-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "in-gi",
+      "word": "in-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ki-it-ti-im-ma",
+      "word": "ki-it-ti-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "na-a",
+      "word": "na-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ta-ak-me",
+      "word": "ta-ak-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "me-lu-uk-ra",
+      "word": "me-lu-uk-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "pi-el",
+      "word": "pi-el",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-ia-an-ku-uk",
+      "word": "si-ia-an-ku-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "az-ki-it",
+      "word": "az-ki-it",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ul-li-na",
+      "word": "ul-li-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "un",
+      "word": "un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "hu-šu-ia",
+      "word": "hu-šu-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-šu-ši-na-ak",
+      "word": "(d)in-šu-ši-na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "hi-en-ka",
+      "word": "hi-en-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-en-ga",
+      "word": "hi-en-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "sah-ri",
+      "word": "sah-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "a-ha-ar",
+      "word": "a-ha-ar",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ap-pa",
+      "word": "ap-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "mu-ur-tah",
+      "word": "mu-ur-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "u3",
+      "word": "u3",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "i",
+      "word": "i",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "a-ha-an",
+      "word": "a-ha-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)PA.TUG2",
+      "word": "(d)PA.TUG2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "im-me",
+      "word": "im-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "zu-un-ki-me",
+      "word": "zu-un-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "in-ti-ik-ka",
+      "word": "in-ti-ik-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-um-ban-nu-me-na-ki",
+      "word": "(md)hu-um-ban-nu-me-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "zi-it-me",
+      "word": "zi-it-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ša-ri-ih",
+      "word": "ša-ri-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ak-ka",
+      "word": "ak-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "la-ha-ak-ir-ra",
+      "word": "la-ha-ak-ir-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "a-pu-un",
+      "word": "a-pu-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-ul-lu-me-en-ga",
+      "word": "šu-ul-lu-me-en-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "si-a-an-ku-uk-ra",
+      "word": "si-a-an-ku-uk-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "in-di-ig-ga",
+      "word": "in-di-ig-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "šu-ul-lu-me-ga",
+      "word": "šu-ul-lu-me-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "te-ip-ti",
+      "word": "te-ip-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-ha",
+      "word": "a-ha",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "u2-ri-pu-pi",
+      "word": "u2-ri-pu-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "su-un-ki-me",
+      "word": "su-un-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "su-un-ki-ip",
+      "word": "su-un-ki-ip",
+      "determinative": null,
+      "suffix": "ip",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-ku-un-nu-um",
+      "word": "ku-ku-un-nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)ki-ri-ri-ša",
+      "word": "(d)ki-ri-ri-ša",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "si-a-an",
+      "word": "si-a-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "in-di-ik-ka",
+      "word": "in-di-ik-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-an-si-ti-ip-pa",
+      "word": "la-an-si-ti-ip-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)im",
+      "word": "(d)im",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "tu4-um-pa-an-ra",
+      "word": "tu4-um-pa-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)30",
+      "word": "(d)30",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "si-ia-an-ra",
+      "word": "si-ia-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ut-ta-an-ra",
+      "word": "hu-ut-ta-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "tu4-ru-un-ka",
+      "word": "tu4-ru-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-ul-la-an-ka",
+      "word": "ku-ul-la-an-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "a-ni",
+      "word": "a-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "uk-ku-ri",
+      "word": "uk-ku-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-li-ih",
+      "word": "ha-li-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-pi-e",
+      "word": "hu-pi-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)hu-ban-um-me-en-na-ki",
+      "word": "(d)hu-ban-um-me-en-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)ši-mut",
+      "word": "(d)ši-mut",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ku-ši-ih-ma",
+      "word": "ku-ši-ih-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ul-hi",
+      "word": "ul-hi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)pi-ni-gir3",
+      "word": "(d)pi-ni-gir3",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "gi-ri-na",
+      "word": "gi-ri-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)na-ah-hu-un-te",
+      "word": "(d)na-ah-hu-un-te",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "du-ni-iš-ni",
+      "word": "du-ni-iš-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-an-si-ti-ir-ra",
+      "word": "la-an-si-ti-ir-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "si-ia-an-i-me",
+      "word": "si-ia-an-i-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ur",
+      "word": "ur",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ku-la-a",
+      "word": "ku-la-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)u2-pur-ku-pa-ak",
+      "word": "(d)u2-pur-ku-pa-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(md)hu-ban-nu-me-na-gi",
+      "word": "(md)hu-ban-nu-me-na-gi",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "ku-tu4-un",
+      "word": "ku-tu4-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pa-ar",
+      "word": "pa-ar",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ša-ra-ra",
+      "word": "ša-ra-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ta-ak-ni",
+      "word": "ta-ak-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-iš",
+      "word": "hi-iš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-a-an-ku-uk",
+      "word": "si-a-an-ku-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "hu-uh-tah",
+      "word": "hu-uh-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "um-me",
+      "word": "um-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "mu-ši-a",
+      "word": "mu-ši-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ut-ta-ak-ha-li-ik",
+      "word": "hu-ut-ta-ak-ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "te-la-ak",
+      "word": "te-la-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-bu-ul",
+      "word": "a-bu-ul",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-al",
+      "word": "ha-al",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "li-na-pu-un",
+      "word": "li-na-pu-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-hu-un",
+      "word": "hu-hu-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "un-taš-dingir-gal",
+      "word": "un-taš-dingir-gal",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ki-la-ah-šu-pi-ir",
+      "word": "(d)ki-la-ah-šu-pi-ir",
+      "determinative": "divine",
+      "suffix": "ir",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "ku-ši-ih-ša",
+      "word": "ku-ši-ih-ša",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "pi-it-te-ka",
+      "word": "pi-it-te-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ru-hu-ra-te-ir",
+      "word": "(d)ru-hu-ra-te-ir",
+      "determinative": "divine",
+      "suffix": "ir",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)hi-iš-mi-ti-ik",
+      "word": "(d)hi-iš-mi-ti-ik",
+      "determinative": "divine",
+      "suffix": "ik",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)na-ap-ra-te-ip",
+      "word": "(d)na-ap-ra-te-ip",
+      "determinative": "divine",
+      "suffix": "ip",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)nin-a-li",
+      "word": "(d)nin-a-li",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)ša-la",
+      "word": "(d)ša-la",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)na-ah-hu-un-te-ir",
+      "word": "(d)na-ah-hu-un-te-ir",
+      "determinative": "divine",
+      "suffix": "ir",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "si-ia-an-ku-uk-pa-ri",
+      "word": "si-ia-an-ku-uk-pa-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "ha-at",
+      "word": "ha-at",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "hi-ih-li",
+      "word": "hi-ih-li",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-pu",
+      "word": "a-pu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)be-la-la",
+      "word": "(d)be-la-la",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ta-ah",
+      "word": "ta-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(md)hu-um-ban-nu-me-en-na-ki",
+      "word": "(md)hu-um-ban-nu-me-en-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "(d)u2-pur-ku-ba-ak",
+      "word": "(d)u2-pur-ku-ba-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "me-el-ka-an-ra",
+      "word": "me-el-ka-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "nu-ur",
+      "word": "nu-ur",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "a-ak]",
+      "word": "a-ak]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[…]-ti-ia",
+      "word": "[…]-ti-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)na-bu-u2",
+      "word": "(d)na-bu-u2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "na",
+      "word": "na",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ni",
+      "word": "ni",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)na-ap-ra-te-ip-me",
+      "word": "(d)na-ap-ra-te-ip-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "si-a-ku-uk",
+      "word": "si-a-ku-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-am-li-e-ma",
+      "word": "la-am-li-e-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "hu-uh-tah-ša",
+      "word": "hu-uh-tah-ša",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[a-ak",
+      "word": "[a-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[u2",
+      "word": "[u2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)ši-ia-šu-um",
+      "word": "(d)ši-ia-šu-um",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ma-an-za-at",
+      "word": "(d)ma-an-za-at",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "tu4-[ur]",
+      "word": "tu4-[ur]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)nin-e2-gal",
+      "word": "(d)nin-e2-gal",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-ip-ši-ia",
+      "word": "pi-ip-ši-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "be-el-ti",
+      "word": "be-el-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-na-na",
+      "word": "(d)in-na-na",
+      "determinative": "divine",
+      "suffix": "na",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)na-bi-um",
+      "word": "(d)na-bi-um",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(m)hu-ban-nu-me-na-ki",
+      "word": "(m)hu-ban-nu-me-na-ki",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)hu-um-ban",
+      "word": "(d)hu-um-ban",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)ru-hu-ra-tir",
+      "word": "(d)ru-hu-ra-tir",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)hi-iš-mi-di-ik",
+      "word": "(d)hi-iš-mi-di-ik",
+      "determinative": "divine",
+      "suffix": "ik",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "lu-pi-en",
+      "word": "lu-pi-en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "dingir-gal-me",
+      "word": "dingir-gal-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "zu-un-ki-ip",
+      "word": "zu-un-ki-ip",
+      "determinative": null,
+      "suffix": "ip",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "u2-pa-ti-pi",
+      "word": "u2-pa-ti-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-ši-ha",
+      "word": "ku-ši-ha",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ni-im-ma",
+      "word": "ni-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "tu4-um-pa",
+      "word": "tu4-um-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ka-ak-pa-ah",
+      "word": "ka-ak-pa-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "a-al",
+      "word": "a-al",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ha-al-ma-šu-um",
+      "word": "ha-al-ma-šu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "[…]-ak",
+      "word": "[…]-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "gi-ri-ni",
+      "word": "gi-ri-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "te-[la-ak-ni]",
+      "word": "te-[la-ak-ni]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)hu-ban-nu-me-na-ki",
+      "word": "(d)hu-ban-nu-me-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "zig-ra-tu4-me",
+      "word": "zig-ra-tu4-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ta-an-ra",
+      "word": "ta-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(m)un-taš-dingir-gal-me",
+      "word": "(m)un-taš-dingir-gal-me",
+      "determinative": "personal-male",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "pi-ti-ir",
+      "word": "pi-ti-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "su-un-ki-ir",
+      "word": "su-un-ki-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "a-ha-a",
+      "word": "a-ha-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "te-pu-uh",
+      "word": "te-pu-uh",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "kuš3",
+      "word": "kuš3",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "tuš",
+      "word": "tuš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "hi-še",
+      "word": "hi-še",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ku-ši-ih-ši-ma",
+      "word": "ku-ši-ih-ši-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "šu-šu-un",
+      "word": "šu-šu-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(m)hu-ban-um-me-na-ki",
+      "word": "(m)hu-ban-um-me-na-ki",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(md)hu-ban-um-me-en-na-ki",
+      "word": "(md)hu-ban-um-me-en-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)pi-ni-gir3-me",
+      "word": "(d)pi-ni-gir3-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)hu-um-ban-nu-me-na-gi",
+      "word": "(d)hu-um-ban-nu-me-na-gi",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "te-im-ma",
+      "word": "te-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ut-tah-ša",
+      "word": "hu-ut-tah-ša",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ka?-ap-na-ak",
+      "word": "ka?-ap-na-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "za-ah-ri",
+      "word": "za-ah-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-li-ik",
+      "word": "ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ut-ta-ak",
+      "word": "hu-ut-ta-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "tu4-ur-hi-ih",
+      "word": "tu4-ur-hi-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ša-at-ki-me",
+      "word": "ša-at-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "a-pi-me",
+      "word": "a-pi-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(m)un-taš-dingir-gal-ki",
+      "word": "(m)un-taš-dingir-gal-ki",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ru-tu4",
+      "word": "ru-tu4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "[(d)in]-šu-uš-na-ak",
+      "word": "[(d)in]-šu-uš-na-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "ku-u[k-ši-ih]",
+      "word": "ku-u[k-ši-ih]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu]-us-si-ip-me",
+      "word": "hu]-us-si-ip-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[…u2-pa-at",
+      "word": "[…u2-pa-at",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "up-ku-mi-[ia]",
+      "word": "up-ku-mi-[ia]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[ku-ku]-un-nu-um",
+      "word": "[ku-ku]-un-nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "in-[ti-ik-ka",
+      "word": "in-[ti-ik-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[in]-gi",
+      "word": "[in]-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[tu-ur]",
+      "word": "[tu-ur]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "šu-šu-un-[ka]-[…]",
+      "word": "šu-šu-un-[ka]-[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[an-za-a]n",
+      "word": "[an-za-a]n",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[…]-ti-e?",
+      "word": "[…]-ti-e?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "-me",
+      "word": "-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "zig-ra-tu4",
+      "word": "zig-ra-tu4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "[…u2]-pa-at",
+      "word": "[…u2]-pa-at",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-iš-e",
+      "word": "hi-iš-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi?-iš",
+      "word": "hi?-iš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[a-h]a-an",
+      "word": "[a-h]a-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-[…]",
+      "word": "hi-[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[š]u?-ut?-ta?",
+      "word": "[š]u?-ut?-ta?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[šu-šu]-un-ka",
+      "word": "[šu-šu]-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ša-tu4-uh-ni",
+      "word": "ša-tu4-uh-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-ib-ra-at",
+      "word": "ki-ib-ra-at",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "in-ti-ig-ga8",
+      "word": "in-ti-ig-ga8",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-it-ti-ma",
+      "word": "ki-it-ti-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)in-šu-uš-na-ak4",
+      "word": "(d)in-šu-uš-na-ak4",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ki-ib-ra-at3",
+      "word": "ki-ib-ra-at3",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-ban-nu-me-na-ki",
+      "word": "(md)hu-ban-nu-me-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)ru-hu-ra-te-ir-me",
+      "word": "(d)ru-hu-ra-te-ir-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)hi-iš-mi-ti-ik2",
+      "word": "(d)hi-iš-mi-ti-ik2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "la-an-si-ti-pa",
+      "word": "la-an-si-ti-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)nin-a-li-me",
+      "word": "(d)nin-a-li-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ša-la-me",
+      "word": "(d)ša-la-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-aš2-ta2",
+      "word": "a-aš2-ta2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-ia-an-ku-uk-pa]",
+      "word": "si-ia-an-ku-uk-pa]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)in-šu-[uš-na-ak",
+      "word": "(d)in-šu-[uš-na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "a]-ak",
+      "word": "a]-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "ku-ku-un-nu-um…",
+      "word": "ku-ku-un-nu-um…",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "si-ia-an-[ku-uk-pa",
+      "word": "si-ia-an-[ku-uk-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)in-šu-uš]-na-ak",
+      "word": "(d)in-šu-uš]-na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "la-an-[si-ti-me",
+      "word": "la-an-[si-ti-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "ku-ku-un-nu-um]",
+      "word": "ku-ku-un-nu-um]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "šu-[šu-un-ka",
+      "word": "šu-[šu-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-um-ba-nu-me-na-ki]",
+      "word": "(md)hu-um-ba-nu-me-na-ki]",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "ša-[ak",
+      "word": "ša-[ak",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[…]-uš-ni-e",
+      "word": "[…]-uš-ni-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ra",
+      "word": "ra",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "si-ia-an-ku]-uk-pa",
+      "word": "si-ia-an-ku]-uk-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)in]-šu-uš-n[a-ak",
+      "word": "(d)in]-šu-uš-n[a-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "ku]-ku-un-[nu-um",
+      "word": "ku]-ku-un-[nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[in",
+      "word": "[in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "si-ia]-an-ku-uk-pa",
+      "word": "si-ia]-an-ku-uk-pa",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)in-šu-uš-[na-ak",
+      "word": "(d)in-šu-uš-[na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[dingir-gal",
+      "word": "[dingir-gal",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "la-an-si-ti-me",
+      "word": "la-an-si-ti-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ku-ku-un-[nu-um",
+      "word": "ku-ku-un-[nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "su-un-ki]-ik",
+      "word": "su-un-ki]-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-um-ba-nu-me-na-[ki",
+      "word": "(md)hu-um-ba-nu-me-na-[ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)in-šu-uš-[na-ak]",
+      "word": "(d)in-šu-uš-[na-ak]",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[tu4-ur]",
+      "word": "[tu4-ur]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "šu-<ut>-ki-me",
+      "word": "šu-<ut>-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[me]-lu-u[k-ra]",
+      "word": "[me]-lu-u[k-ra]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-an-si-ti-ra",
+      "word": "la-an-si-ti-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)na-bu-me",
+      "word": "(d)na-bu-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-ma-aš2",
+      "word": "si-ma-aš2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ul-lu-ru-uk",
+      "word": "ul-lu-ru-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-te-en",
+      "word": "ku-te-en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-i-in",
+      "word": "a-i-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "i-la-a-ni-me",
+      "word": "i-la-a-ni-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "mi-el-ki",
+      "word": "mi-el-ki",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "up-qu-mi-ma",
+      "word": "up-qu-mi-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-ik-ki-te-eh",
+      "word": "ki-ik-ki-te-eh",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "up-kum-mi-ia",
+      "word": "up-kum-mi-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "missing",
+      "word": "missing",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "šu-uh-tir",
+      "word": "šu-uh-tir",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "1",
+      "word": "1",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ta-li-in",
+      "word": "ta-li-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-ul-lu-me-ka",
+      "word": "šu-ul-lu-me-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)hu-ban-nu-me-en-na-ki",
+      "word": "(d)hu-ban-nu-me-en-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)iš-ni-ka-ra-ab2",
+      "word": "(d)iš-ni-ka-ra-ab2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "hu-šu-a",
+      "word": "hu-šu-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-lu-me-ka",
+      "word": "šu-lu-me-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)hu-ba-nu-me-en-na-ki",
+      "word": "(d)hu-ba-nu-me-en-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "šu-un-šu-ir-pi",
+      "word": "šu-un-šu-ir-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ma-šu-um",
+      "word": "ma-šu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)hu-ban-nu-me-na-gi",
+      "word": "(d)hu-ban-nu-me-na-gi",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(m)ki-",
+      "word": "(m)ki-",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "x-pa-lu",
+      "word": "x-pa-lu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ki",
+      "word": "ki",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ri",
+      "word": "ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "a",
+      "word": "a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "mu",
+      "word": "mu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "a-pi",
+      "word": "a-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ša",
+      "word": "ša",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ar",
+      "word": "ar",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "ka",
+      "word": "ka",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)pa-tug2",
+      "word": "(d)pa-tug2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "hu-lu-uh",
+      "word": "hu-lu-uh",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-an-si-ti-ih",
+      "word": "la-an-si-ti-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(husa)tukul-har-sag",
+      "word": "(husa)tukul-har-sag",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "tu4-ru-uš-ni-e",
+      "word": "tu4-ru-uš-ni-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "in(?)]",
+      "word": "in(?)]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "[ur(?)",
+      "word": "[ur(?)",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "li-en-ra",
+      "word": "li-en-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "li-e",
+      "word": "li-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "lu-be-en",
+      "word": "lu-be-en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "id",
+      "word": "id",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)iš-ni-ka-ra-ab",
+      "word": "(d)iš-ni-ka-ra-ab",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "mu-ši-it-ta",
+      "word": "mu-ši-it-ta",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "li-gi-e",
+      "word": "li-gi-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "[hu]-uh-tah",
+      "word": "[hu]-uh-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "x-x",
+      "word": "x-x",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "pu-uh-x-x",
+      "word": "pu-uh-x-x",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[dingir-gal]",
+      "word": "[dingir-gal]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[hu]-ut2-tak-ha-li-ik",
+      "word": "[hu]-ut2-tak-ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "[i]",
+      "word": "[i]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "[te-ip]-ti",
+      "word": "[te-ip]-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ut2-tah-ha-li-ih",
+      "word": "hu-ut2-tah-ha-li-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "in-ti-ik-[ka]",
+      "word": "in-ti-ik-[ka]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "sa-ah-[ri]",
+      "word": "sa-ah-[ri]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-lu-me-en-[ka]",
+      "word": "šu-lu-me-en-[ka]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[hi]-ih",
+      "word": "[hi]-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "ia",
+      "word": "ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "su-us-ka-tah",
+      "word": "su-us-ka-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ri?-im?-um",
+      "word": "ri?-im?-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[ki?]-zu-um",
+      "word": "[ki?]-zu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(md)hu-um-ban-um-me-en-na-ki",
+      "word": "(md)hu-um-ban-um-me-en-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "t]e-la-[ak]-li",
+      "word": "t]e-la-[ak]-li",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[la-ha-ak-ir-ra",
+      "word": "[la-ha-ak-ir-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[si-i-an]-ku-uk",
+      "word": "[si-i-an]-ku-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "te-ip-ti]",
+      "word": "te-ip-ti]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-šu-uš-n[a-ak",
+      "word": "(d)in-šu-uš-n[a-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "dingir-gal]",
+      "word": "dingir-gal]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "hu-ut2-tak-ha]-li-[ik",
+      "word": "hu-ut2-tak-ha]-li-[ik",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "du-ni-[ih",
+      "word": "du-ni-[ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[la-ha-ak-ir-ra]",
+      "word": "[la-ha-ak-ir-ra]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[t]e-ip-ti",
+      "word": "[t]e-ip-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-šu-uš-n[a-ak]",
+      "word": "(d)in-šu-uš-n[a-ak]",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[hu]-ut2-tah",
+      "word": "[hu]-ut2-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "in-ti-[ig]-ga",
+      "word": "in-ti-[ig]-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "hi-[en-g]a",
+      "word": "hi-[en-g]a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[hu]-šu-ia",
+      "word": "[hu]-šu-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "sah]-ri",
+      "word": "sah]-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[az-ki-it",
+      "word": "[az-ki-it",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "in]-ti-ig-[ga]",
+      "word": "in]-ti-ig-[ga]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "u2-[me",
+      "word": "u2-[me",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-it-me]",
+      "word": "si-it-me]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[hi-ih",
+      "word": "[hi-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "ta-[ak]-me",
+      "word": "ta-[ak]-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-[ha]-ak-[ir]-ra",
+      "word": "la-[ha]-ak-[ir]-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "si-ia-an-ku-[uk]",
+      "word": "si-ia-an-ku-[uk]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "te-ip-[ti]",
+      "word": "te-ip-[ti]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-šu-[uš]-na-ak",
+      "word": "(d)in-šu-[uš]-na-ak",
+      "determinative": "divine",
+      "suffix": "ak",
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "su-us-ka-ta]h",
+      "word": "su-us-ka-ta]h",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-am]-li-[e-ma",
+      "word": "la-am]-li-[e-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[ri?-im?]-mu-u[m",
+      "word": "[ri?-im?]-mu-u[m",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "si-a-an-ku-uk]",
+      "word": "si-a-an-ku-uk]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "ha-li-[ih",
+      "word": "ha-li-[ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu]-uh-tah",
+      "word": "hu]-uh-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-uh-[tah-ša]",
+      "word": "hu-uh-[tah-ša]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[u2-r]i-pu-up",
+      "word": "[u2-r]i-pu-up",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "zu-u[n-ki-ip]",
+      "word": "zu-u[n-ki-ip]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[…]-a",
+      "word": "[…]-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "te-la-ak-li",
+      "word": "te-la-ak-li",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[si]-ia-an-ku-uk",
+      "word": "[si]-ia-an-ku-uk",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[u2]",
+      "word": "[u2]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "hu-[ut-tah]",
+      "word": "hu-[ut-tah]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[a-gi]",
+      "word": "[a-gi]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "in-ti-ig-ga",
+      "word": "in-ti-ig-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "sa-ah-ri",
+      "word": "sa-ah-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "[šu]-lu-me-en-[ga]",
+      "word": "[šu]-lu-me-en-[ga]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "ta-ak-[me]",
+      "word": "ta-ak-[me]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "zu-uz-ka-tah",
+      "word": "zu-uz-ka-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[ri?]-mu-um",
+      "word": "[ri?]-mu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "u2-ri-[pu]-up",
+      "word": "u2-ri-[pu]-up",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki?-iz?-zu-um",
+      "word": "ki?-iz?-zu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "]",
+      "word": "]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)[…",
+      "word": "(d)[…",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "e",
+      "word": "e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "[h]a-li-ik",
+      "word": "[h]a-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)[…]",
+      "word": "(d)[…]",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 1
+    },
+    {
+      "id": "li?-ki?-ri?-en?",
+      "word": "li?-ki?-ri?-en?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "š[u-šu-un-ka",
+      "word": "š[u-šu-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "su-un-ki-i[k]",
+      "word": "su-un-ki-i[k]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(m)un-t[aš]-dingir-gal",
+      "word": "(m)un-t[aš]-dingir-gal",
+      "determinative": "personal-male",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "hi-ih-ni",
+      "word": "hi-ih-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si]-it-tim",
+      "word": "si]-it-tim",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-el]",
+      "word": "pi-el]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-ia-an-[ku-uk-ra",
+      "word": "si-ia-an-[ku-uk-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "hu-ut2-tak-ha-li]-ik",
+      "word": "hu-ut2-tak-ha-li]-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "[li-mi-in-ra",
+      "word": "[li-mi-in-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "u2-pa-at]",
+      "word": "u2-pa-at]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[šu-šu-un-ka",
+      "word": "[šu-šu-un-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-um-ban-nu-me]-na-gi",
+      "word": "(md)hu-um-ban-nu-me]-na-gi",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "ta-at-ta-ah",
+      "word": "ta-at-ta-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "mu-ur-ta-ah",
+      "word": "mu-ur-ta-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)be-li-li-me",
+      "word": "(d)be-li-li-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)da-mu-si",
+      "word": "(d)da-mu-si",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "h[u-ut-tak-h]a-li-ik",
+      "word": "h[u-ut-tak-h]a-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "hi?-[…]",
+      "word": "hi?-[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "e[l?-x-x]-at-tu4",
+      "word": "e[l?-x-x]-at-tu4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)hu-ban-[um]-me-na-ki",
+      "word": "(d)hu-ban-[um]-me-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)su-un-ki-ir-ri-ša-ar-ra",
+      "word": "(d)su-un-ki-ir-ri-ša-ar-ra",
+      "determinative": "divine",
+      "suffix": "ra",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "ta-ak-ki-ip-pi",
+      "word": "ta-ak-ki-ip-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "pu-uk-ši",
+      "word": "pu-uk-ši",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(md)hu-um-ban-um-me-na-gi",
+      "word": "(md)hu-um-ban-um-me-na-gi",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "li-ni-en",
+      "word": "li-ni-en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-ip-li-ih",
+      "word": "pi-ip-li-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ap-pu-ki-i",
+      "word": "ap-pu-ki-i",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ap-pu-ki-me",
+      "word": "ap-pu-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "mu-ur-ta-an-ra",
+      "word": "mu-ur-ta-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "pa-ap-pa-ra-na",
+      "word": "pa-ap-pa-ra-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ha-ap-pa-ti-iš",
+      "word": "ha-ap-pa-ti-iš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "li-li-ra",
+      "word": "li-li-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ip-il-la-ti-ma",
+      "word": "ip-il-la-ti-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "mu-ur-ti",
+      "word": "mu-ur-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hi-ih2",
+      "word": "hi-ih2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "pa-ka-an-ra",
+      "word": "pa-ka-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-ni-e",
+      "word": "la-ni-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-ni-ia",
+      "word": "la-ni-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)hu-um-ban-me",
+      "word": "(d)hu-um-ban-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)hu-um-ban-um-me-en-na-ki",
+      "word": "(d)hu-um-ban-um-me-en-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "ul-li-na6",
+      "word": "ul-li-na6",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "su-kar-tah",
+      "word": "su-kar-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-ap-ši",
+      "word": "ha-ap-ši",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-di-en",
+      "word": "ha-di-en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "in-di-ig-ga2",
+      "word": "in-di-ig-ga2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "gi-nu-ni",
+      "word": "gi-nu-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "in-di-ig-ga4",
+      "word": "in-di-ig-ga4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ban-nu-me-en-na-ki",
+      "word": "hu-ban-nu-me-en-na-ki",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "il-li-na",
+      "word": "il-li-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-šu-ut-ta",
+      "word": "hu-šu-ut-ta",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-nu-ni",
+      "word": "ki-nu-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ut-ta-an",
+      "word": "hu-ut-ta-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "zu-uk-ka-an",
+      "word": "zu-uk-ka-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "si-ti-i",
+      "word": "si-ti-i",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ka-da-an",
+      "word": "ka-da-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ša-ar-ra-na",
+      "word": "ša-ar-ra-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-sa-a",
+      "word": "hu-sa-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "li-ik-ri-in",
+      "word": "li-ik-ri-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ma-ka-ak",
+      "word": "hu-ma-ka-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "uk-ku-ma",
+      "word": "uk-ku-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "zu-lu-ka-ak",
+      "word": "zu-lu-ka-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "zu-uk-ma",
+      "word": "zu-uk-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "il-ki-ka",
+      "word": "il-ki-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-ap-ti-iš",
+      "word": "ha-ap-ti-iš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hi-i-še",
+      "word": "hi-i-še",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ša-qu-tu4",
+      "word": "ša-qu-tu4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-bu-ul-lu",
+      "word": "a-bu-ul-lu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hi-el",
+      "word": "hi-el",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "lu-bu-ru-uh",
+      "word": "lu-bu-ru-uh",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ha-al-li",
+      "word": "ha-al-li",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)in-šu-ši-na-ak-me",
+      "word": "(d)in-šu-ši-na-ak-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "šu-du-ur",
+      "word": "šu-du-ur",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-du-um-ma",
+      "word": "pi-du-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-du-um-ma",
+      "word": "ki-du-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "la-an-si-di-ia",
+      "word": "la-an-si-di-ia",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ik-el",
+      "word": "ik-el",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ši-in-ni",
+      "word": "ši-in-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "lu-mu-un-ra",
+      "word": "lu-mu-un-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ha-al-te-te",
+      "word": "ha-al-te-te",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "du-ha-an-ra",
+      "word": "du-ha-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "tu4-ul-li-in",
+      "word": "tu4-ul-li-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "li-in-ra",
+      "word": "li-in-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ku-ta-a",
+      "word": "ku-ta-a",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-ia-an-ku-uk-ma",
+      "word": "si-ia-an-ku-uk-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "hi-i-še-e",
+      "word": "hi-i-še-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "mi-ša-ri",
+      "word": "mi-ša-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "lu-ub-bu-ru-uh-ni",
+      "word": "lu-ub-bu-ru-uh-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "si-ia-an-ku-uk-pa-me",
+      "word": "si-ia-an-ku-uk-pa-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "šu-tu4-ur",
+      "word": "šu-tu4-ur",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-tu4-um-ma",
+      "word": "pi-tu4-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-du-um-ma",
+      "word": "ku-du-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "pi-it-te-ga",
+      "word": "pi-it-te-ga",
+      "determinative": null,
+      "suffix": "ga",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "te-la-ak-[ni]",
+      "word": "te-la-ak-[ni]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ut2-tak?-ha?-[…]",
+      "word": "hu-ut2-tak?-ha?-[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "du-[…]h-pi",
+      "word": "du-[…]h-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-an-gi-el-li",
+      "word": "la-an-gi-el-li",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "[…]-pi",
+      "word": "[…]-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "hu-ut2-tak",
+      "word": "hu-ut2-tak",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-du",
+      "word": "ha-du",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ta?-du?-ra-na",
+      "word": "ta?-du?-ra-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[…]-ar-na",
+      "word": "[…]-ar-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)kir-ma-sir-me",
+      "word": "(d)kir-ma-sir-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[…]-ih-ma",
+      "word": "[…]-ih-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "a[n-za]-an",
+      "word": "a[n-za]-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[su]-un-ki-ik",
+      "word": "[su]-un-ki-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "[…]-nu-me-na-gi",
+      "word": "[…]-nu-me-na-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "hi-ih-ni]",
+      "word": "hi-ih-ni]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[si-it-tim",
+      "word": "[si-it-tim",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "me-lu-uk-ra]",
+      "word": "me-lu-uk-ra]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "pi-[el",
+      "word": "pi-[el",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "li-mi-in-ra",
+      "word": "li-mi-in-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ki-la-ah-šu-pi-ir]",
+      "word": "(d)ki-la-ah-šu-pi-ir]",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "hu-ut2-tak-[ha-li-ik",
+      "word": "hu-ut2-tak-[ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "li-mi-in-ra]",
+      "word": "li-mi-in-ra]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-[ši-ih",
+      "word": "ku-[ši-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "li-mi-in",
+      "word": "li-mi-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "an-za-an]",
+      "word": "an-za-an]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "(md)hu-um-[ban-nu-me-na-gi",
+      "word": "(md)hu-um-[ban-nu-me-na-gi",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)zu-un-ki-ir-ri-ša-ar-ra",
+      "word": "(d)zu-un-ki-ir-ri-ša-ar-ra",
+      "determinative": "divine",
+      "suffix": "ra",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "ri-e-ru-um-ma",
+      "word": "ri-e-ru-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)zu-un-ki-ir-ri-ša-ar-ra-me",
+      "word": "(d)zu-un-ki-ir-ri-ša-ar-ra-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 9
+    },
+    {
+      "id": "zi-it-im-ma",
+      "word": "zi-it-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "li-na]",
+      "word": "li-na]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-[ia-an-ku]-uk-[ra",
+      "word": "si-[ia-an-ku]-uk-[ra",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)ki-{ri-ri}-ša",
+      "word": "(d)ki-{ri-ri}-ša",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "[ku-ši-ih]",
+      "word": "[ku-ši-ih]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "ki-iš-tu4-um-ma",
+      "word": "ki-iš-tu4-um-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)ki-ri-ri-ša-me",
+      "word": "(d)ki-ri-ri-ša-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "[a]-gi",
+      "word": "[a]-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "[in-ti]-ik-ka",
+      "word": "[in-ti]-ik-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)[hu]-um-ban-nu-me-na-gi",
+      "word": "(d)[hu]-um-ban-nu-me-na-gi",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "10",
+      "word": "10",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "hu-ut-ta-ak-[ha-li-ik]",
+      "word": "hu-ut-ta-ak-[ha-li-ik]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "[ip-il-la-ti]",
+      "word": "[ip-il-la-ti]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ia-ak",
+      "word": "ia-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "az-ki-[it]",
+      "word": "az-ki-[it]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "ip-il-la-ti",
+      "word": "ip-il-la-ti",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-ik-ki-ti-ih",
+      "word": "ki-ik-ki-ti-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "pi-tu4-ma",
+      "word": "pi-tu4-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ku-du-ma",
+      "word": "ku-du-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-ul-pa-ah",
+      "word": "hu-ul-pa-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-uh-ni-me",
+      "word": "hu-uh-ni-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-uk-ši-ih",
+      "word": "ku-uk-ši-ih",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "si-ia-ni-me",
+      "word": "si-ia-ni-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu",
+      "word": "hu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "me-en-pu",
+      "word": "me-en-pu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "tu4-uš",
+      "word": "tu4-uš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "hu-ni-in",
+      "word": "hu-ni-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-an-si-ti-ir",
+      "word": "la-an-si-ti-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "(d)pi-ni-gìr",
+      "word": "(d)pi-ni-gìr",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "nu-ul-ki-ip-pi",
+      "word": "nu-ul-ki-ip-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "si-ir-ha-al-te",
+      "word": "si-ir-ha-al-te",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ki-ni-in",
+      "word": "ki-ni-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-li-in",
+      "word": "si-li-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-lu-mi-im-ma",
+      "word": "a-lu-mi-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ta-aš2-ni",
+      "word": "ta-aš2-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ku-du-ni",
+      "word": "ku-du-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ku-ur-ru",
+      "word": "ku-ur-ru",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "mi-ši-ma-na",
+      "word": "mi-ši-ma-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ru-ri-na",
+      "word": "ru-ri-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "an-ka",
+      "word": "an-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ha-ta-am-ti-ir",
+      "word": "ha-ta-am-ti-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "i-me-ni",
+      "word": "i-me-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "su-ku-ša-ak",
+      "word": "su-ku-ša-ak",
+      "determinative": null,
+      "suffix": "ak",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "du-un-ra",
+      "word": "du-un-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "la-an-si-ti-e",
+      "word": "la-an-si-ti-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ha-at-ta-an-ra",
+      "word": "ha-at-ta-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "ta-ri-ir",
+      "word": "ta-ri-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "DINGIR-GAL",
+      "word": "DINGIR-GAL",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "tu4-ur]",
+      "word": "tu4-ur]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "zu-[un-ki-me",
+      "word": "zu-[un-ki-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "{te-la}-ak-ni",
+      "word": "{te-la}-ak-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "{li}-na",
+      "word": "{li}-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-ia-an-ku-{uk}-[pa]",
+      "word": "si-ia-an-ku-{uk}-[pa]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)na-zi-it",
+      "word": "(d)na-zi-it",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)na-zi-it-me",
+      "word": "(d)na-zi-it-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)nun.sunki",
+      "word": "(d)nun.sunki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "(d)nun.sunki-me",
+      "word": "(d)nun.sunki-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "(d)pi-ni-gir3-me-im-ma",
+      "word": "(d)pi-ni-gir3-me-im-ma",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "10-na",
+      "word": "10-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ša-ri-ik",
+      "word": "ša-ri-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "a-lu-me-lu",
+      "word": "a-lu-me-lu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)u2-pur-ku-ba-ak-me",
+      "word": "(d)u2-pur-ku-ba-ak-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d){na-bu}-u2",
+      "word": "(d){na-bu}-u2",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "{ku-ši-ih}",
+      "word": "{ku-ši-ih}",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "[hu-us-si]-ip-me",
+      "word": "[hu-us-si]-ip-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "hu-uš-ti-in",
+      "word": "hu-uš-ti-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "šu-šu-[un-ka]",
+      "word": "šu-šu-[un-ka]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "(md)hu-[um-ban-nu-me-na-gi]",
+      "word": "(md)hu-[um-ban-nu-me-na-gi]",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 7
+    },
+    {
+      "id": "(md)hu-ban-nu-um-me-en-na-ki",
+      "word": "(md)hu-ban-nu-um-me-en-na-ki",
+      "determinative": "divine-personal",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 8
+    },
+    {
+      "id": "(d)aiba-sunkir",
+      "word": "(d)aiba-sunkir",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "nu-mu-un",
+      "word": "nu-mu-un",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "hu-[ut]-tak-ha-li-ik",
+      "word": "hu-[ut]-tak-ha-li-ik",
+      "determinative": null,
+      "suffix": "ik",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "zu-uk-ka-an-ka",
+      "word": "zu-uk-ka-an-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "en",
+      "word": "en",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "{uk-ku}-me",
+      "word": "{uk-ku}-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "du-uh",
+      "word": "du-uh",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "{ku}?-nu-um",
+      "word": "{ku}?-nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "ša-am?-me-eh-ši",
+      "word": "ša-am?-me-eh-ši",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "lu-lu-uh-šu",
+      "word": "lu-lu-uh-šu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ku-[ku]-un-nu-um",
+      "word": "ku-[ku]-un-nu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "mu-ur-ta-an",
+      "word": "mu-ur-ta-an",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "dur-na-ah-u2-te-{na}?",
+      "word": "dur-na-ah-u2-te-{na}?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 6
+    },
+    {
+      "id": "[ta]š?-šu?-up",
+      "word": "[ta]š?-šu?-up",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-ni-ih-ši",
+      "word": "ha-ni-ih-ši",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-un-hi-ih-na",
+      "word": "hu-un-hi-ih-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "me-lu-uk-ma",
+      "word": "me-lu-uk-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-it-ti-in",
+      "word": "ki-it-ti-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ša-at-me",
+      "word": "ša-at-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-ut-me",
+      "word": "šu-ut-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "du-ni-iš",
+      "word": "du-ni-iš",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "si-di-im-ma",
+      "word": "si-di-im-ma",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "da-ah",
+      "word": "da-ah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "si-ia-a-an-ku-uk-me",
+      "word": "si-ia-a-an-ku-uk-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "te-ip-ta",
+      "word": "te-ip-ta",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "ik-ku",
+      "word": "ik-ku",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "u2-ri-pu-be",
+      "word": "u2-ri-pu-be",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ka-tah2",
+      "word": "ka-tah2",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "in-tu4-um",
+      "word": "in-tu4-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "uš-ta-na",
+      "word": "uš-ta-na",
+      "determinative": null,
+      "suffix": "na",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)hu-ban-um-me-na-ki",
+      "word": "(d)hu-ban-um-me-na-ki",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "hu-ut-tak-ha-li-ku",
+      "word": "hu-ut-tak-ha-li-ku",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "ir-mu",
+      "word": "ir-mu",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "ki-ik-ki-[…]",
+      "word": "ki-ik-ki-[…]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "sig-ra-tu4",
+      "word": "sig-ra-tu4",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "du-uh?",
+      "word": "du-uh?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "a-ah?",
+      "word": "a-ah?",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "li-ik-ri",
+      "word": "li-ik-ri",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)ha-te-ri-iš-[…]",
+      "word": "(d)ha-te-ri-iš-[…]",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "me-[lu]-uk-ra",
+      "word": "me-[lu]-uk-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 4
+    },
+    {
+      "id": "ki-it-ti-[im-ma]",
+      "word": "ki-it-ti-[im-ma]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 5
+    },
+    {
+      "id": "[pi-el]",
+      "word": "[pi-el]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "pa-at-tah",
+      "word": "pa-at-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)ha-te-ri-iš-nu",
+      "word": "(d)ha-te-ri-iš-nu",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "hu-si-ip-me",
+      "word": "hu-si-ip-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)ha-te-ri-iš-nu-me",
+      "word": "(d)ha-te-ri-iš-nu-me",
+      "determinative": "divine",
+      "suffix": "me",
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "hi-e]n-ka",
+      "word": "hi-e]n-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "[in-gi",
+      "word": "[in-gi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 2
+    },
+    {
+      "id": "šu-ul-lu-me-en-ka",
+      "word": "šu-ul-lu-me-en-ka",
+      "determinative": null,
+      "suffix": "ka",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "an-[za-an]",
+      "word": "an-[za-an]",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": true,
+      "syllable_count": 3
+    },
+    {
+      "id": "ha-ah-ni-in-ra",
+      "word": "ha-ah-ni-in-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "du-ni-ih-ši-ni-e",
+      "word": "du-ni-ih-ši-ni-e",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "šu-ut-ku-me",
+      "word": "šu-ut-ku-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ut-tah",
+      "word": "hu-ut-tah",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "pi-ip-ši-it-te",
+      "word": "pi-ip-ši-it-te",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "a-pi-te",
+      "word": "a-pi-te",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "li-ki-ir",
+      "word": "li-ki-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "šu-up",
+      "word": "šu-up",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "mu-uh-du-uh-me",
+      "word": "mu-uh-du-uh-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 5
+    },
+    {
+      "id": "si-it-tan-me",
+      "word": "si-it-tan-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(d)te-ip-ti",
+      "word": "(d)te-ip-ti",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "(d)ma-áš-ti",
+      "word": "(d)ma-áš-ti",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "me-it-ki-ni",
+      "word": "me-it-ki-ni",
+      "determinative": null,
+      "suffix": "ni",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "ip",
+      "word": "ip",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 1
+    },
+    {
+      "id": "uk-ku-pi",
+      "word": "uk-ku-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "na-pir2-ri-ša-ar-ra-pi",
+      "word": "na-pir2-ri-ša-ar-ra-pi",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 7
+    },
+    {
+      "id": "(d)pi-el-ti-ya",
+      "word": "(d)pi-el-ti-ya",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "pi-li-in",
+      "word": "pi-li-in",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 3
+    },
+    {
+      "id": "na-ah-hu-un-te-ir",
+      "word": "na-ah-hu-un-te-ir",
+      "determinative": null,
+      "suffix": "ir",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "(d)in-šu-uš-na-ak-ri",
+      "word": "(d)in-šu-uš-na-ak-ri",
+      "determinative": "divine",
+      "suffix": null,
+      "contains_divine": true,
+      "is_fragmentary": false,
+      "syllable_count": 6
+    },
+    {
+      "id": "ha-<at>",
+      "word": "ha-<at>",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 2
+    },
+    {
+      "id": "su-ku-un-ra",
+      "word": "su-ku-un-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "tu4-up-pi-me",
+      "word": "tu4-up-pi-me",
+      "determinative": null,
+      "suffix": "me",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-tu4-un-ra",
+      "word": "hu-tu4-un-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "hu-ma-an-ra",
+      "word": "hu-ma-an-ra",
+      "determinative": null,
+      "suffix": "ra",
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "sa-al-mu-um",
+      "word": "sa-al-mu-um",
+      "determinative": null,
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(f)na-pír-a-su",
+      "word": "(f)na-pír-a-su",
+      "determinative": "personal-female",
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    },
+    {
+      "id": "(f)na-pir2-a-su",
+      "word": "(f)na-pir2-a-su",
+      "determinative": "personal-female",
+      "suffix": null,
+      "contains_divine": false,
+      "is_fragmentary": false,
+      "syllable_count": 4
+    }
+  ],
+  "edges": [
+    {
+      "source": "u2-me",
+      "target": "in",
+      "weight": 0.6216
+    },
+    {
+      "source": "u2-me",
+      "target": "u2-pa-at",
+      "weight": 0.6177
+    },
+    {
+      "source": "u2-me",
+      "target": "ku-ši-ih",
+      "weight": 0.5883
+    },
+    {
+      "source": "u2-me",
+      "target": "[…]",
+      "weight": 0.5622
+    },
+    {
+      "source": "u2-me",
+      "target": "a-ak",
+      "weight": 0.5591
+    },
+    {
+      "source": "u2-me",
+      "target": "dingir-gal",
+      "weight": 0.5421
+    },
+    {
+      "source": "u2-me",
+      "target": "a-pu-un",
+      "weight": 0.5392
+    },
+    {
+      "source": "u2-me",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.5318
+    },
+    {
+      "source": "u2-me",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.5235
+    },
+    {
+      "source": "u2-me",
+      "target": "hi-en-ka",
+      "weight": 0.5191
+    },
+    {
+      "source": "u2-me",
+      "target": "a-gi",
+      "weight": 0.5176
+    },
+    {
+      "source": "u2-me",
+      "target": "az-ki-it",
+      "weight": 0.5162
+    },
+    {
+      "source": "u2-me",
+      "target": "si-it-me",
+      "weight": 0.5155
+    },
+    {
+      "source": "u2-me",
+      "target": "du-ni-ih",
+      "weight": 0.5116
+    },
+    {
+      "source": "u2-me",
+      "target": "in-gi",
+      "weight": 0.5031
+    },
+    {
+      "source": "u2-me",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.5018
+    },
+    {
+      "source": "u2-me",
+      "target": "u2",
+      "weight": 0.4996
+    },
+    {
+      "source": "u2-me",
+      "target": "tu4-ur",
+      "weight": 0.4933
+    },
+    {
+      "source": "u2-me",
+      "target": "su-un-ki-ik",
+      "weight": 0.4824
+    },
+    {
+      "source": "u2-me",
+      "target": "hi-en-ga",
+      "weight": 0.4809
+    },
+    {
+      "source": "u2-me",
+      "target": "šu-šu-un-ka",
+      "weight": 0.4792
+    },
+    {
+      "source": "u2-me",
+      "target": "a-ha-ar",
+      "weight": 0.4586
+    },
+    {
+      "source": "u2-me",
+      "target": "si-ia-an-ku-uk",
+      "weight": 0.4509
+    },
+    {
+      "source": "u2-me",
+      "target": "sah-ri",
+      "weight": 0.4329
+    },
+    {
+      "source": "u2-me",
+      "target": "hi-ih",
+      "weight": 0.425
+    },
+    {
+      "source": "u2-me",
+      "target": "ir",
+      "weight": 0.4199
+    },
+    {
+      "source": "u2-me",
+      "target": "an-za-an",
+      "weight": 0.4183
+    },
+    {
+      "source": "u2-me",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.4182
+    },
+    {
+      "source": "u2-me",
+      "target": "(d)PA.TUG2",
+      "weight": 0.4128
+    },
+    {
+      "source": "u2-me",
+      "target": "si-ia-an",
+      "weight": 0.4101
+    },
+    {
+      "source": "u2-me",
+      "target": "pi-[el",
+      "weight": 0.4089
+    },
+    {
+      "source": "u2-me",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3889
+    },
+    {
+      "source": "u2-me",
+      "target": "hu-šu-ia",
+      "weight": 0.3877
+    },
+    {
+      "source": "u2-me",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3853
+    },
+    {
+      "source": "u2-me",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3838
+    },
+    {
+      "source": "u2-me",
+      "target": "mu-ur-tah",
+      "weight": 0.3751
+    },
+    {
+      "source": "u2-me",
+      "target": "i",
+      "weight": 0.3673
+    },
+    {
+      "source": "u2-me",
+      "target": "ta-ak-me",
+      "weight": 0.3657
+    },
+    {
+      "source": "u2-me",
+      "target": "hu-ut-tak-ha-li-ik",
+      "weight": 0.3654
+    },
+    {
+      "source": "u2-me",
+      "target": "im-me",
+      "weight": 0.3625
+    },
+    {
+      "source": "u2-me",
+      "target": "zu-un-ki-me",
+      "weight": 0.3553
+    },
+    {
+      "source": "u2-me",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3503
+    },
+    {
+      "source": "u2",
+      "target": "u2-pa-at",
+      "weight": 0.5209
+    },
+    {
+      "source": "u2",
+      "target": "tu4-ur",
+      "weight": 0.4831
+    },
+    {
+      "source": "u2",
+      "target": "a-ak",
+      "weight": 0.4362
+    },
+    {
+      "source": "u2",
+      "target": "ku-ši-ih",
+      "weight": 0.4284
+    },
+    {
+      "source": "u2",
+      "target": "hi-en-ga",
+      "weight": 0.4273
+    },
+    {
+      "source": "u2",
+      "target": "mu-ur-tah",
+      "weight": 0.4243
+    },
+    {
+      "source": "u2",
+      "target": "dingir-gal",
+      "weight": 0.4114
+    },
+    {
+      "source": "u2",
+      "target": "si-ia-an-ku-uk",
+      "weight": 0.403
+    },
+    {
+      "source": "u2",
+      "target": "hi-ih",
+      "weight": 0.4002
+    },
+    {
+      "source": "u2",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3986
+    },
+    {
+      "source": "u2",
+      "target": "a-gi",
+      "weight": 0.3985
+    },
+    {
+      "source": "u2",
+      "target": "su-un-ki-ik",
+      "weight": 0.3955
+    },
+    {
+      "source": "u2",
+      "target": "me-lu-uk-ra",
+      "weight": 0.3818
+    },
+    {
+      "source": "u2",
+      "target": "(d)ki-la-ah-šu-pi-ir",
+      "weight": 0.3817
+    },
+    {
+      "source": "u2",
+      "target": "hi-en-ka",
+      "weight": 0.378
+    },
+    {
+      "source": "u2",
+      "target": "in",
+      "weight": 0.377
+    },
+    {
+      "source": "u2",
+      "target": "un",
+      "weight": 0.3768
+    },
+    {
+      "source": "u2",
+      "target": "ul-li-na",
+      "weight": 0.3738
+    },
+    {
+      "source": "u2",
+      "target": "a-pu-un",
+      "weight": 0.3632
+    },
+    {
+      "source": "u2",
+      "target": "[…]",
+      "weight": 0.3632
+    },
+    {
+      "source": "u2",
+      "target": "su-un-ki-me",
+      "weight": 0.3622
+    },
+    {
+      "source": "u2",
+      "target": "in-gi",
+      "weight": 0.362
+    },
+    {
+      "source": "u2",
+      "target": "ta-ak-me",
+      "weight": 0.3617
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "in",
+      "weight": 0.5663
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "u2-pa-at",
+      "weight": 0.5447
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.5423
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "a-ak",
+      "weight": 0.5222
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "tu4-ur",
+      "weight": 0.5112
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "a-gi",
+      "weight": 0.5056
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.503
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.4995
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hi-en-ka",
+      "weight": 0.4975
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "šu-šu-un-ka",
+      "weight": 0.49
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "[…]",
+      "weight": 0.4895
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "in-gi",
+      "weight": 0.4884
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hi-ih",
+      "weight": 0.4684
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.4628
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4499
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "su-un-ki-ik",
+      "weight": 0.4491
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "du-ni-ih",
+      "weight": 0.4415
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-ia-an",
+      "weight": 0.4308
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-it-me",
+      "weight": 0.4278
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "dingir-gal",
+      "weight": 0.4251
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hu-šu-ia",
+      "weight": 0.4237
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hu-ut-tak-ha-li-ik",
+      "weight": 0.4215
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "hi-en-ga",
+      "weight": 0.4177
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "im-me",
+      "weight": 0.4132
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "mu-ur-tah",
+      "weight": 0.4006
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "a-pu-un",
+      "weight": 0.3947
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "in-ti-ik-ka",
+      "weight": 0.3856
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "a]-ak",
+      "weight": 0.3841
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "a-ha-ar",
+      "weight": 0.3803
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-ia-an-i-me",
+      "weight": 0.3768
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "ap-pa",
+      "weight": 0.3714
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "az-ki-it",
+      "weight": 0.3698
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "(md)hu-ban-nu-me-na-gi",
+      "weight": 0.3683
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "ni",
+      "weight": 0.3662
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "an-za-an",
+      "weight": 0.3658
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "si-ia-an-ku-uk",
+      "weight": 0.3634
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.3594
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "(d)in-na-na",
+      "weight": 0.3589
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "gi-ri-na",
+      "weight": 0.3588
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "ul-li-na",
+      "weight": 0.3576
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "ak-ka",
+      "weight": 0.3571
+    },
+    {
+      "source": "ku-ši-ih",
+      "target": "ul-hi",
+      "weight": 0.3501
+    },
+    {
+      "source": "(m)un-taš-dingir-gal",
+      "target": "te-ip-ti]",
+      "weight": 0.3734
+    },
+    {
+      "source": "(m)un-taš-dingir-gal",
+      "target": "tu4-ur",
+      "weight": 0.3512
+    },
+    {
+      "source": "an-za-an",
+      "target": "[…]",
+      "weight": 0.4854
+    },
+    {
+      "source": "an-za-an",
+      "target": "in",
+      "weight": 0.4024
+    },
+    {
+      "source": "an-za-an",
+      "target": "si-ia-an",
+      "weight": 0.3898
+    },
+    {
+      "source": "an-za-an",
+      "target": "(d)na-ah-hu-un-te",
+      "weight": 0.3895
+    },
+    {
+      "source": "an-za-an",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.3857
+    },
+    {
+      "source": "an-za-an",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.3745
+    },
+    {
+      "source": "an-za-an",
+      "target": "a-pu-un",
+      "weight": 0.3601
+    },
+    {
+      "source": "an-za-an",
+      "target": "ak-ka",
+      "weight": 0.3501
+    },
+    {
+      "source": "a-ak",
+      "target": "tu4-ur",
+      "weight": 0.6384
+    },
+    {
+      "source": "a-ak",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.5952
+    },
+    {
+      "source": "a-ak",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.5296
+    },
+    {
+      "source": "a-ak",
+      "target": "šu-šu-un-ka",
+      "weight": 0.5249
+    },
+    {
+      "source": "a-ak",
+      "target": "in",
+      "weight": 0.5194
+    },
+    {
+      "source": "a-ak",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.5041
+    },
+    {
+      "source": "a-ak",
+      "target": "a-gi",
+      "weight": 0.4831
+    },
+    {
+      "source": "a-ak",
+      "target": "u2-pa-at",
+      "weight": 0.4763
+    },
+    {
+      "source": "a-ak",
+      "target": "dingir-gal",
+      "weight": 0.4603
+    },
+    {
+      "source": "a-ak",
+      "target": "[…]",
+      "weight": 0.4498
+    },
+    {
+      "source": "a-ak",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.4478
+    },
+    {
+      "source": "a-ak",
+      "target": "si-it-me",
+      "weight": 0.4418
+    },
+    {
+      "source": "a-ak",
+      "target": "ša-ri-ih",
+      "weight": 0.4339
+    },
+    {
+      "source": "a-ak",
+      "target": "hi-en-ka",
+      "weight": 0.4276
+    },
+    {
+      "source": "a-ak",
+      "target": "du-ni-ih",
+      "weight": 0.4263
+    },
+    {
+      "source": "a-ak",
+      "target": "ta-ak-me",
+      "weight": 0.4227
+    },
+    {
+      "source": "a-ak",
+      "target": "a-bu-ul",
+      "weight": 0.4105
+    },
+    {
+      "source": "a-ak",
+      "target": "hi-en-ga",
+      "weight": 0.4044
+    },
+    {
+      "source": "a-ak",
+      "target": "a-ha-ar",
+      "weight": 0.3976
+    },
+    {
+      "source": "a-ak",
+      "target": "si-ia-an",
+      "weight": 0.396
+    },
+    {
+      "source": "a-ak",
+      "target": "az-ki-it",
+      "weight": 0.3937
+    },
+    {
+      "source": "a-ak",
+      "target": "ir",
+      "weight": 0.3923
+    },
+    {
+      "source": "a-ak",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.3879
+    },
+    {
+      "source": "a-ak",
+      "target": "in-gi",
+      "weight": 0.3817
+    },
+    {
+      "source": "a-ak",
+      "target": "tu4-ru-un-ka",
+      "weight": 0.3787
+    },
+    {
+      "source": "a-ak",
+      "target": "ul-li-na",
+      "weight": 0.3773
+    },
+    {
+      "source": "a-ak",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3721
+    },
+    {
+      "source": "a-ak",
+      "target": "un",
+      "weight": 0.3681
+    },
+    {
+      "source": "a-ak",
+      "target": "ni",
+      "weight": 0.3673
+    },
+    {
+      "source": "a-ak",
+      "target": "sah-ri",
+      "weight": 0.3625
+    },
+    {
+      "source": "a-ak",
+      "target": "si-ia-an-ku-uk",
+      "weight": 0.3583
+    },
+    {
+      "source": "a-ak",
+      "target": "hu-ut2-tah-ha-li-ih",
+      "weight": 0.3577
+    },
+    {
+      "source": "a-ak",
+      "target": "ku-u[k-ši-ih]",
+      "weight": 0.3534
+    },
+    {
+      "source": "a-ak",
+      "target": "a-ha",
+      "weight": 0.3521
+    },
+    {
+      "source": "a-ak",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3502
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "tu4-ur",
+      "weight": 0.5112
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4589
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "in",
+      "weight": 0.4578
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "si-it-me",
+      "weight": 0.4563
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "si-ia-an-i-me",
+      "weight": 0.4485
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "hi-en-ga",
+      "weight": 0.4371
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "gi-ri-na",
+      "weight": 0.4356
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.4321
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "u2-pa-at",
+      "weight": 0.4228
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "hi-en-ka",
+      "weight": 0.418
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "[…]",
+      "weight": 0.4174
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "zu-un-ki-me",
+      "weight": 0.4016
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3914
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3881
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "ku-u[k-ši-ih]",
+      "weight": 0.3871
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "sah-ri",
+      "weight": 0.3798
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.3689
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "du-ni-ih",
+      "weight": 0.3672
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "in-gi",
+      "weight": 0.3668
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "a-ha-ar",
+      "weight": 0.3584
+    },
+    {
+      "source": "šu-šu-un-ka",
+      "target": "a-gi",
+      "weight": 0.3581
+    },
+    {
+      "source": "su-un-ki-ik",
+      "target": "u2-pa-at",
+      "weight": 0.4669
+    },
+    {
+      "source": "su-un-ki-ik",
+      "target": "tu4-ur",
+      "weight": 0.4121
+    },
+    {
+      "source": "su-un-ki-ik",
+      "target": "hi-en-ka",
+      "weight": 0.4035
+    },
+    {
+      "source": "su-un-ki-ik",
+      "target": "in-gi",
+      "weight": 0.3964
+    },
+    {
+      "source": "su-un-ki-ik",
+      "target": "az-ki-it",
+      "weight": 0.3803
+    },
+    {
+      "source": "si-ia-an",
+      "target": "in",
+      "weight": 0.5455
+    },
+    {
+      "source": "si-ia-an",
+      "target": "a-gi",
+      "weight": 0.5068
+    },
+    {
+      "source": "si-ia-an",
+      "target": "u2-pa-at",
+      "weight": 0.4909
+    },
+    {
+      "source": "si-ia-an",
+      "target": "dingir-gal",
+      "weight": 0.4478
+    },
+    {
+      "source": "si-ia-an",
+      "target": "mu-ur-tah",
+      "weight": 0.4251
+    },
+    {
+      "source": "si-ia-an",
+      "target": "du-ni-ih",
+      "weight": 0.4218
+    },
+    {
+      "source": "si-ia-an",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.4173
+    },
+    {
+      "source": "si-ia-an",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.4069
+    },
+    {
+      "source": "si-ia-an",
+      "target": "su-un-ki-me",
+      "weight": 0.4026
+    },
+    {
+      "source": "si-ia-an",
+      "target": "in-gi",
+      "weight": 0.4003
+    },
+    {
+      "source": "si-ia-an",
+      "target": "in-ti-ik-ka",
+      "weight": 0.399
+    },
+    {
+      "source": "si-ia-an",
+      "target": "im-me",
+      "weight": 0.398
+    },
+    {
+      "source": "si-ia-an",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.394
+    },
+    {
+      "source": "si-ia-an",
+      "target": "ak-ka",
+      "weight": 0.3936
+    },
+    {
+      "source": "si-ia-an",
+      "target": "ta-ak-ni",
+      "weight": 0.3926
+    },
+    {
+      "source": "si-ia-an",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.3918
+    },
+    {
+      "source": "si-ia-an",
+      "target": "a-ha-ar",
+      "weight": 0.3844
+    },
+    {
+      "source": "si-ia-an",
+      "target": "si-it-me",
+      "weight": 0.3821
+    },
+    {
+      "source": "si-ia-an",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.3813
+    },
+    {
+      "source": "si-ia-an",
+      "target": "[…]",
+      "weight": 0.372
+    },
+    {
+      "source": "si-ia-an",
+      "target": "(md)hu-ban-nu-me-na-gi",
+      "weight": 0.3691
+    },
+    {
+      "source": "si-ia-an",
+      "target": "si-ia-an-ku-uk-pa",
+      "weight": 0.3659
+    },
+    {
+      "source": "si-ia-an",
+      "target": "ša-ri-ih",
+      "weight": 0.3656
+    },
+    {
+      "source": "si-ia-an",
+      "target": "tu4-um-pa-an-ra",
+      "weight": 0.3599
+    },
+    {
+      "source": "si-ia-an",
+      "target": "hu-ut-ta-an-ra",
+      "weight": 0.3543
+    },
+    {
+      "source": "si-ia-an",
+      "target": "hi-en-ga",
+      "weight": 0.353
+    },
+    {
+      "source": "tu4-ur",
+      "target": "hi-en-ka",
+      "weight": 0.5364
+    },
+    {
+      "source": "tu4-ur",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4869
+    },
+    {
+      "source": "tu4-ur",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.4731
+    },
+    {
+      "source": "tu4-ur",
+      "target": "ak-ka",
+      "weight": 0.463
+    },
+    {
+      "source": "tu4-ur",
+      "target": "[…]",
+      "weight": 0.448
+    },
+    {
+      "source": "tu4-ur",
+      "target": "ta-ak-me",
+      "weight": 0.4418
+    },
+    {
+      "source": "tu4-ur",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.4415
+    },
+    {
+      "source": "tu4-ur",
+      "target": "in-gi",
+      "weight": 0.4097
+    },
+    {
+      "source": "tu4-ur",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.4067
+    },
+    {
+      "source": "tu4-ur",
+      "target": "hu-šu-ia",
+      "weight": 0.398
+    },
+    {
+      "source": "tu4-ur",
+      "target": "in",
+      "weight": 0.3969
+    },
+    {
+      "source": "tu4-ur",
+      "target": "a-ha-ar",
+      "weight": 0.3864
+    },
+    {
+      "source": "tu4-ur",
+      "target": "dingir-gal",
+      "weight": 0.3806
+    },
+    {
+      "source": "tu4-ur",
+      "target": "u2-pa-at",
+      "weight": 0.3657
+    },
+    {
+      "source": "tu4-ur",
+      "target": "a-gi",
+      "weight": 0.3628
+    },
+    {
+      "source": "tu4-ur",
+      "target": "si-it-me",
+      "weight": 0.3603
+    },
+    {
+      "source": "tu4-ur",
+      "target": "mu-ur-tah",
+      "weight": 0.3591
+    },
+    {
+      "source": "tu4-ur",
+      "target": "im-me",
+      "weight": 0.3503
+    },
+    {
+      "source": "dingir-gal",
+      "target": "(d)in-šu-uš-na-ak",
+      "weight": 0.5062
+    },
+    {
+      "source": "dingir-gal",
+      "target": "u2-pa-at",
+      "weight": 0.5027
+    },
+    {
+      "source": "dingir-gal",
+      "target": "a-gi",
+      "weight": 0.5025
+    },
+    {
+      "source": "dingir-gal",
+      "target": "mu-ur-tah",
+      "weight": 0.5012
+    },
+    {
+      "source": "dingir-gal",
+      "target": "in-gi",
+      "weight": 0.4897
+    },
+    {
+      "source": "dingir-gal",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4884
+    },
+    {
+      "source": "dingir-gal",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.4669
+    },
+    {
+      "source": "dingir-gal",
+      "target": "in",
+      "weight": 0.4546
+    },
+    {
+      "source": "dingir-gal",
+      "target": "si-ia-an-ku-uk-pa",
+      "weight": 0.4512
+    },
+    {
+      "source": "dingir-gal",
+      "target": "a-pu-un",
+      "weight": 0.4425
+    },
+    {
+      "source": "dingir-gal",
+      "target": "si-it-me",
+      "weight": 0.4015
+    },
+    {
+      "source": "dingir-gal",
+      "target": "az-ki-it",
+      "weight": 0.399
+    },
+    {
+      "source": "dingir-gal",
+      "target": "ta-ak-me",
+      "weight": 0.3962
+    },
+    {
+      "source": "dingir-gal",
+      "target": "hi-en-ka",
+      "weight": 0.3918
+    },
+    {
+      "source": "dingir-gal",
+      "target": "a-ha-ar",
+      "weight": 0.3889
+    },
+    {
+      "source": "dingir-gal",
+      "target": "hi-en-ga",
+      "weight": 0.387
+    },
+    {
+      "source": "dingir-gal",
+      "target": "sah-ri",
+      "weight": 0.383
+    },
+    {
+      "source": "dingir-gal",
+      "target": "du-ni-ih",
+      "weight": 0.3766
+    },
+    {
+      "source": "dingir-gal",
+      "target": "in-ti-ik-ka",
+      "weight": 0.3762
+    },
+    {
+      "source": "dingir-gal",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3739
+    },
+    {
+      "source": "dingir-gal",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3636
+    },
+    {
+      "source": "dingir-gal",
+      "target": "ul-li-na",
+      "weight": 0.3568
+    },
+    {
+      "source": "dingir-gal",
+      "target": "a-ni",
+      "weight": 0.3531
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "[…]",
+      "weight": 0.4978
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.4824
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "du-ni-ih",
+      "weight": 0.4611
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "u2-pa-at",
+      "weight": 0.4585
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "a-gi",
+      "weight": 0.4538
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "in-gi",
+      "weight": 0.451
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "in",
+      "weight": 0.4354
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "ta-ak-me",
+      "weight": 0.4286
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.4265
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "az-ki-it",
+      "weight": 0.4213
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "hi-en-ka",
+      "weight": 0.4161
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3998
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "sah-ri",
+      "weight": 0.3976
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "tu4-ni-ih",
+      "weight": 0.3899
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.3868
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "ir",
+      "weight": 0.3667
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "pi-el",
+      "weight": 0.3651
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "a-bu-ul",
+      "weight": 0.3637
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "hi-ih",
+      "weight": 0.3626
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "a-pu-un",
+      "weight": 0.3591
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "a-ha-ar",
+      "weight": 0.3587
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "tu4-ru-un-ka",
+      "weight": 0.3556
+    },
+    {
+      "source": "(d)in-šu-uš-na-ak",
+      "target": "a-ha",
+      "weight": 0.3533
+    },
+    {
+      "source": "in",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.5709
+    },
+    {
+      "source": "in",
+      "target": "si-it-me",
+      "weight": 0.5478
+    },
+    {
+      "source": "in",
+      "target": "a-ha-ar",
+      "weight": 0.5358
+    },
+    {
+      "source": "in",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.5253
+    },
+    {
+      "source": "in",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.5163
+    },
+    {
+      "source": "in",
+      "target": "u2-pa-at",
+      "weight": 0.4988
+    },
+    {
+      "source": "in",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.4878
+    },
+    {
+      "source": "in",
+      "target": "in-gi",
+      "weight": 0.4831
+    },
+    {
+      "source": "in",
+      "target": "a-gi",
+      "weight": 0.4805
+    },
+    {
+      "source": "in",
+      "target": "[…]",
+      "weight": 0.4594
+    },
+    {
+      "source": "in",
+      "target": "sah-ri",
+      "weight": 0.4591
+    },
+    {
+      "source": "in",
+      "target": "du-ni-ih",
+      "weight": 0.4488
+    },
+    {
+      "source": "in",
+      "target": "ak-ka",
+      "weight": 0.4438
+    },
+    {
+      "source": "in",
+      "target": "hu-ut-tak-ha-li-ik",
+      "weight": 0.4396
+    },
+    {
+      "source": "in",
+      "target": "az-ki-it",
+      "weight": 0.4303
+    },
+    {
+      "source": "in",
+      "target": "mu-ur-tah",
+      "weight": 0.427
+    },
+    {
+      "source": "in",
+      "target": "si-ia-an-ku-uk-pa",
+      "weight": 0.4269
+    },
+    {
+      "source": "in",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.4223
+    },
+    {
+      "source": "in",
+      "target": "a-pu-un",
+      "weight": 0.4152
+    },
+    {
+      "source": "in",
+      "target": "(d)PA.TUG2",
+      "weight": 0.4106
+    },
+    {
+      "source": "in",
+      "target": "su-un-ki-me",
+      "weight": 0.3974
+    },
+    {
+      "source": "in",
+      "target": "hi-ih",
+      "weight": 0.3932
+    },
+    {
+      "source": "in",
+      "target": "hi-en-ga",
+      "weight": 0.3908
+    },
+    {
+      "source": "in",
+      "target": "im-me",
+      "weight": 0.3841
+    },
+    {
+      "source": "in",
+      "target": "in-di-ig-ga",
+      "weight": 0.3826
+    },
+    {
+      "source": "in",
+      "target": "hi-en-ka",
+      "weight": 0.3821
+    },
+    {
+      "source": "in",
+      "target": "in-ti-ik-ka",
+      "weight": 0.3781
+    },
+    {
+      "source": "in",
+      "target": "ša-ri-ih",
+      "weight": 0.3774
+    },
+    {
+      "source": "in",
+      "target": "ni",
+      "weight": 0.3684
+    },
+    {
+      "source": "in",
+      "target": "si-ia-an-ku-uk",
+      "weight": 0.3684
+    },
+    {
+      "source": "in",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3678
+    },
+    {
+      "source": "in",
+      "target": "un",
+      "weight": 0.3528
+    },
+    {
+      "source": "in",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3521
+    },
+    {
+      "source": "in",
+      "target": "ap-pa",
+      "weight": 0.3519
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "a-gi",
+      "weight": 0.4591
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "hi-en-ga",
+      "weight": 0.4487
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "in-ti-ik-ka",
+      "weight": 0.4043
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "la-an-si-ti-ir-ra",
+      "weight": 0.4035
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.4028
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4004
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "(d)PA.TUG2",
+      "weight": 0.3931
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "si-it-me",
+      "weight": 0.3863
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.381
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "ku-u[k-ši-ih]",
+      "weight": 0.3677
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "[…]",
+      "weight": 0.3598
+    },
+    {
+      "source": "hu-ut-tak-ha-li-ik",
+      "target": "a-ha-ar",
+      "weight": 0.3552
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "u2-pa-at",
+      "weight": 0.4241
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "ul-li-na",
+      "weight": 0.4101
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "si-it-me",
+      "weight": 0.4091
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "a-gi",
+      "weight": 0.4044
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "[…]",
+      "weight": 0.4039
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "ik-ku",
+      "weight": 0.3913
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.384
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "a-pu-un",
+      "weight": 0.3805
+    },
+    {
+      "source": "du-ni-ih",
+      "target": "ša-ar-ra-na",
+      "weight": 0.3711
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "[…]",
+      "weight": 0.5212
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "a-gi",
+      "weight": 0.4768
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "si-it-me",
+      "weight": 0.4717
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "hi-en-ka",
+      "weight": 0.4564
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "az-ki-it",
+      "weight": 0.4549
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.4373
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "hi-en-ga",
+      "weight": 0.4323
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "a-pu-un",
+      "weight": 0.4305
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "in-gi",
+      "weight": 0.4249
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "mu-ur-tah",
+      "weight": 0.4221
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "hu-us-si-ip-me",
+      "weight": 0.4071
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.4068
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "ir",
+      "weight": 0.3823
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "ta-ak-ni",
+      "weight": 0.379
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3711
+    },
+    {
+      "source": "u2-pa-at",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3525
+    },
+    {
+      "source": "hi-ih",
+      "target": "a-pu-un",
+      "weight": 0.4864
+    },
+    {
+      "source": "hi-ih",
+      "target": "a-gi",
+      "weight": 0.4409
+    },
+    {
+      "source": "hi-ih",
+      "target": "tu4-ni-ih",
+      "weight": 0.4367
+    },
+    {
+      "source": "hi-ih",
+      "target": "az-ki-it",
+      "weight": 0.3828
+    },
+    {
+      "source": "hi-ih",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3603
+    },
+    {
+      "source": "hi-ih",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.358
+    },
+    {
+      "source": "hi-ih",
+      "target": "[…]",
+      "weight": 0.3577
+    },
+    {
+      "source": "hi-ih",
+      "target": "hi-en-ka",
+      "weight": 0.3551
+    },
+    {
+      "source": "hi-ih",
+      "target": "in-gi",
+      "weight": 0.3521
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.4562
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "a-ha-ar",
+      "weight": 0.4416
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "a-pu-un",
+      "weight": 0.4383
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "hi-en-ka",
+      "weight": 0.4315
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "ta-ak-me",
+      "weight": 0.427
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "a-gi",
+      "weight": 0.426
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "hi-en-ga",
+      "weight": 0.4246
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "[…]",
+      "weight": 0.4111
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "si-it-me",
+      "weight": 0.4042
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "in-gi",
+      "weight": 0.3996
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "si-ia-an-ku-uk-ra",
+      "weight": 0.3991
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3928
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3725
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "un",
+      "weight": 0.3631
+    },
+    {
+      "source": "hu-us-si-ip-me",
+      "target": "ir",
+      "weight": 0.354
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "a-gi",
+      "weight": 0.5453
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "(d)ši-mut",
+      "weight": 0.4383
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "si-it-me",
+      "weight": 0.4309
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "in-gi",
+      "weight": 0.4179
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.4172
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "mu-ur-tah",
+      "weight": 0.3947
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3851
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.3656
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "im-me",
+      "weight": 0.3611
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "[…]",
+      "weight": 0.3591
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "(md)hu-ban-nu-me-na-gi",
+      "weight": 0.3561
+    },
+    {
+      "source": "si-ia-an-ku-uk-ra",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.3501
+    },
+    {
+      "source": "a-gi",
+      "target": "hi-en-ka",
+      "weight": 0.5422
+    },
+    {
+      "source": "a-gi",
+      "target": "im-me",
+      "weight": 0.5025
+    },
+    {
+      "source": "a-gi",
+      "target": "si-it-me",
+      "weight": 0.4812
+    },
+    {
+      "source": "a-gi",
+      "target": "in-gi",
+      "weight": 0.4302
+    },
+    {
+      "source": "a-gi",
+      "target": "a-pu-un",
+      "weight": 0.4291
+    },
+    {
+      "source": "a-gi",
+      "target": "hi-en-ga",
+      "weight": 0.4257
+    },
+    {
+      "source": "a-gi",
+      "target": "in-ti-ik-ka",
+      "weight": 0.4181
+    },
+    {
+      "source": "a-gi",
+      "target": "ta-li-in",
+      "weight": 0.4092
+    },
+    {
+      "source": "a-gi",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.4039
+    },
+    {
+      "source": "a-gi",
+      "target": "(d)in-šu-ši-na-ak",
+      "weight": 0.4021
+    },
+    {
+      "source": "a-gi",
+      "target": "un",
+      "weight": 0.402
+    },
+    {
+      "source": "a-gi",
+      "target": "az-ki-it",
+      "weight": 0.3851
+    },
+    {
+      "source": "a-gi",
+      "target": "tu4-ni-ih",
+      "weight": 0.3834
+    },
+    {
+      "source": "a-gi",
+      "target": "su-un-ki-me",
+      "weight": 0.3808
+    },
+    {
+      "source": "a-gi",
+      "target": "me-lu-uk-ra",
+      "weight": 0.3692
+    },
+    {
+      "source": "a-gi",
+      "target": "ar",
+      "weight": 0.3634
+    },
+    {
+      "source": "a-gi",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3514
+    },
+    {
+      "source": "li-na",
+      "target": "hi-en-ga",
+      "weight": 0.3933
+    },
+    {
+      "source": "li-na",
+      "target": "si-it-me",
+      "weight": 0.3903
+    },
+    {
+      "source": "li-na",
+      "target": "(d)PA.TUG2",
+      "weight": 0.3615
+    },
+    {
+      "source": "[…]",
+      "target": "in-gi",
+      "weight": 0.4241
+    },
+    {
+      "source": "[…]",
+      "target": "(d)na-ah-hu-un-te",
+      "weight": 0.4236
+    },
+    {
+      "source": "[…]",
+      "target": "hi-en-ka",
+      "weight": 0.4046
+    },
+    {
+      "source": "[…]",
+      "target": "(d)PA.TUG2",
+      "weight": 0.4039
+    },
+    {
+      "source": "[…]",
+      "target": "si-it-me",
+      "weight": 0.3768
+    },
+    {
+      "source": "[…]",
+      "target": "la-ha-ak-ir-ra",
+      "weight": 0.3613
+    },
+    {
+      "source": "[…]",
+      "target": "ta-ak-me",
+      "weight": 0.3536
+    },
+    {
+      "source": "[…]",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3513
+    },
+    {
+      "source": "[…]",
+      "target": "a-ha-ar",
+      "weight": 0.3503
+    },
+    {
+      "source": "si-it-me",
+      "target": "a-pu-un",
+      "weight": 0.4315
+    },
+    {
+      "source": "si-it-me",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.426
+    },
+    {
+      "source": "si-it-me",
+      "target": "sah-ri",
+      "weight": 0.4034
+    },
+    {
+      "source": "si-it-me",
+      "target": "si-ia-an-ku-uk-pa",
+      "weight": 0.3992
+    },
+    {
+      "source": "si-it-me",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3964
+    },
+    {
+      "source": "si-it-me",
+      "target": "in-gi",
+      "weight": 0.3936
+    },
+    {
+      "source": "si-it-me",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3929
+    },
+    {
+      "source": "si-it-me",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3901
+    },
+    {
+      "source": "si-it-me",
+      "target": "in-ti-ik-ka",
+      "weight": 0.3764
+    },
+    {
+      "source": "si-it-me",
+      "target": "mu-ur-tah",
+      "weight": 0.3749
+    },
+    {
+      "source": "si-it-me",
+      "target": "ak-ka",
+      "weight": 0.3685
+    },
+    {
+      "source": "si-it-me",
+      "target": "hi-en-ka",
+      "weight": 0.3561
+    },
+    {
+      "source": "ir",
+      "target": "hi-en-ka",
+      "weight": 0.35
+    },
+    {
+      "source": "tu4-ni-ih",
+      "target": "in-gi",
+      "weight": 0.397
+    },
+    {
+      "source": "tu4-ni-ih",
+      "target": "a-ha-ar",
+      "weight": 0.3537
+    },
+    {
+      "source": "si-ia-an-ku-uk-pa",
+      "target": "ki-it-ti-im-ma",
+      "weight": 0.3514
+    },
+    {
+      "source": "zu-un-ki-ik",
+      "target": "im-me",
+      "weight": 0.4103
+    },
+    {
+      "source": "zu-un-ki-ik",
+      "target": "hu-ut-tah-ša",
+      "weight": 0.4018
+    },
+    {
+      "source": "in-gi",
+      "target": "hi-en-ka",
+      "weight": 0.4502
+    },
+    {
+      "source": "in-gi",
+      "target": "sah-ri",
+      "weight": 0.4075
+    },
+    {
+      "source": "in-gi",
+      "target": "mu-ur-tah",
+      "weight": 0.4064
+    },
+    {
+      "source": "in-gi",
+      "target": "a-ha-ar",
+      "weight": 0.4033
+    },
+    {
+      "source": "in-gi",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3893
+    },
+    {
+      "source": "in-gi",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3675
+    },
+    {
+      "source": "in-gi",
+      "target": "az-ki-it",
+      "weight": 0.3624
+    },
+    {
+      "source": "ki-it-ti-im-ma",
+      "target": "mu-ur-tah",
+      "weight": 0.3723
+    },
+    {
+      "source": "ki-it-ti-im-ma",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3722
+    },
+    {
+      "source": "ki-it-ti-im-ma",
+      "target": "ak-ka",
+      "weight": 0.3676
+    },
+    {
+      "source": "me-lu-uk-ra",
+      "target": "ul-li-na",
+      "weight": 0.3564
+    },
+    {
+      "source": "si-ia-an-ku-uk",
+      "target": "az-ki-it",
+      "weight": 0.4196
+    },
+    {
+      "source": "si-ia-an-ku-uk",
+      "target": "hi-en-ga",
+      "weight": 0.3515
+    },
+    {
+      "source": "az-ki-it",
+      "target": "sah-ri",
+      "weight": 0.4281
+    },
+    {
+      "source": "ul-li-na",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.3656
+    },
+    {
+      "source": "ul-li-na",
+      "target": "du-[…]h-pi",
+      "weight": 0.3524
+    },
+    {
+      "source": "un",
+      "target": "ša-ri-ih",
+      "weight": 0.3776
+    },
+    {
+      "source": "un",
+      "target": "in-ti-ik-ka",
+      "weight": 0.364
+    },
+    {
+      "source": "un",
+      "target": "hi-en-ga",
+      "weight": 0.3508
+    },
+    {
+      "source": "(d)in-šu-ši-na-ak",
+      "target": "hi-en-ka",
+      "weight": 0.4179
+    },
+    {
+      "source": "(d)in-šu-ši-na-ak",
+      "target": "a-ha-a",
+      "weight": 0.4016
+    },
+    {
+      "source": "(d)in-šu-ši-na-ak",
+      "target": "in-ti-ik-ka",
+      "weight": 0.3544
+    },
+    {
+      "source": "hi-en-ka",
+      "target": "hi-en-ga",
+      "weight": 0.4435
+    },
+    {
+      "source": "hi-en-ka",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3916
+    },
+    {
+      "source": "hi-en-ka",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3797
+    },
+    {
+      "source": "hi-en-ka",
+      "target": "im-me",
+      "weight": 0.3513
+    },
+    {
+      "source": "hi-en-ga",
+      "target": "u2-ri-pu-pi",
+      "weight": 0.4097
+    },
+    {
+      "source": "hi-en-ga",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3621
+    },
+    {
+      "source": "hi-en-ga",
+      "target": "su-un-ki-me",
+      "weight": 0.3504
+    },
+    {
+      "source": "sah-ri",
+      "target": "ak-ka",
+      "weight": 0.3751
+    },
+    {
+      "source": "sah-ri",
+      "target": "la-an-si-ti-ip-pa",
+      "weight": 0.35
+    },
+    {
+      "source": "a-ha-ar",
+      "target": "in-di-ig-ga",
+      "weight": 0.3806
+    },
+    {
+      "source": "a-ha-ar",
+      "target": "i",
+      "weight": 0.3551
+    },
+    {
+      "source": "ap-pa",
+      "target": "si-a-an-ku-uk-ra",
+      "weight": 0.3612
+    },
+    {
+      "source": "mu-ur-tah",
+      "target": "(d)PA.TUG2",
+      "weight": 0.3872
+    },
+    {
+      "source": "mu-ur-tah",
+      "target": "te-ip-[ti]",
+      "weight": 0.3505
+    },
+    {
+      "source": "(d)PA.TUG2",
+      "target": "hu-ut2-tak-ha-li]-ik",
+      "weight": 0.3697
+    },
+    {
+      "source": "(d)PA.TUG2",
+      "target": "si-a-an",
+      "weight": 0.352
+    },
+    {
+      "source": "im-me",
+      "target": "ak-ka",
+      "weight": 0.3527
+    },
+    {
+      "source": "zu-un-ki-me",
+      "target": "ta-at-ta-ah",
+      "weight": 0.3568
+    },
+    {
+      "source": "in-ti-ik-ka",
+      "target": "(d)u2-pur-ku-ba-ak",
+      "weight": 0.3723
+    },
+    {
+      "source": "ak-ka",
+      "target": "su-un-ki-me",
+      "weight": 0.4386
+    },
+    {
+      "source": "la-ha-ak-ir-ra",
+      "target": "a-ha",
+      "weight": 0.378
+    },
+    {
+      "source": "la-ha-ak-ir-ra",
+      "target": "(d)in-na-na",
+      "weight": 0.3564
+    },
+    {
+      "source": "la-ha-ak-ir-ra",
+      "target": "a-pu-un",
+      "weight": 0.3534
+    },
+    {
+      "source": "si-a-an-ku-uk-ra",
+      "target": "e",
+      "weight": 0.4196
+    },
+    {
+      "source": "si-a-an-ku-uk-ra",
+      "target": "ku-ul-la-an-ka",
+      "weight": 0.3676
+    },
+    {
+      "source": "si-a-an-ku-uk-ra",
+      "target": "(d)ki-ri-ri-ša",
+      "weight": 0.3544
+    },
+    {
+      "source": "su-un-ki-me",
+      "target": "ni-im-ma",
+      "weight": 0.3783
+    },
+    {
+      "source": "(d)ki-ri-ri-ša",
+      "target": "(d)hu-um-ban-nu-me-na-gi",
+      "weight": 0.3686
+    },
+    {
+      "source": "(d)ki-ri-ri-ša",
+      "target": "sah]-ri",
+      "weight": 0.3645
+    },
+    {
+      "source": "si-a-an",
+      "target": "si-it-me]",
+      "weight": 0.38
+    },
+    {
+      "source": "in-di-ik-ka",
+      "target": "tu4-ru-un-ka",
+      "weight": 0.3896
+    },
+    {
+      "source": "hu-ut-ta-an-ra",
+      "target": "a-pi-me",
+      "weight": 0.3706
+    },
+    {
+      "source": "ku-la-a",
+      "target": "la-ni-e",
+      "weight": 0.3792
+    },
+    {
+      "source": "ku-tu4-un",
+      "target": "ma-šu-um",
+      "weight": 0.3682
+    },
+    {
+      "source": "ša-ra-ra",
+      "target": "ip-il-la-ti",
+      "weight": 0.3649
+    },
+    {
+      "source": "hu-hu-un",
+      "target": "(d)in-šu-[uš]-na-ak",
+      "weight": 0.3819
+    },
+    {
+      "source": "a-pu",
+      "target": "en",
+      "weight": 0.3902
+    },
+    {
+      "source": "na",
+      "target": "10",
+      "weight": 0.3768
+    },
+    {
+      "source": "[a-ak",
+      "target": "[me]-lu-u[k-ra]",
+      "weight": 0.3801
+    },
+    {
+      "source": "(d)in-na-na",
+      "target": "in-[ti-ik-ka",
+      "weight": 0.3756
+    },
+    {
+      "source": "ka-ak-pa-ah",
+      "target": "(d)ki-{ri-ri}-ša",
+      "weight": 0.4093
+    },
+    {
+      "source": "[…]-ak",
+      "target": "t]e-la-[ak]-li",
+      "weight": 0.3942
+    },
+    {
+      "source": "ku-ši-ih-ši-ma",
+      "target": "[hi-ih",
+      "weight": 0.4022
+    },
+    {
+      "source": "(d)hu-um-ban-nu-me-na-gi",
+      "target": "[hu]-šu-ia",
+      "weight": 0.3752
+    },
+    {
+      "source": "[…]-ti-e?",
+      "target": "ku-[ku]-un-nu-um",
+      "weight": 0.3721
+    },
+    {
+      "source": "ša-tu4-uh-ni",
+      "target": "ku-te-en",
+      "weight": 0.3684
+    },
+    {
+      "source": "in-ti-ig-ga8",
+      "target": "du-[…]h-pi",
+      "weight": 0.3513
+    },
+    {
+      "source": "up-qu-mi-ma",
+      "target": "(d)pi-el-ti-ya",
+      "weight": 0.3694
+    },
+    {
+      "source": "(d)iš-ni-ka-ra-ab2",
+      "target": "]",
+      "weight": 0.4232
+    },
+    {
+      "source": "šu-lu-me-ka",
+      "target": "[…]-pi",
+      "weight": 0.3549
+    },
+    {
+      "source": "(d)hu-ban-nu-me-na-gi",
+      "target": "te-la-ak-[ni]",
+      "weight": 0.3817
+    },
+    {
+      "source": "(d)pa-tug2",
+      "target": "mu-ur-ta-an",
+      "weight": 0.3747
+    },
+    {
+      "source": "in(?)]",
+      "target": "zu-[un-ki-me",
+      "weight": 0.3541
+    },
+    {
+      "source": "in(?)]",
+      "target": "{uk-ku}-me",
+      "weight": 0.3537
+    },
+    {
+      "source": "[ur(?)",
+      "target": "a[n-za]-an",
+      "weight": 0.3571
+    },
+    {
+      "source": "[dingir-gal]",
+      "target": "li-in-ra",
+      "weight": 0.3549
+    },
+    {
+      "source": "hu-ut2-tah-ha-li-ih",
+      "target": "[az-ki-it",
+      "weight": 0.352
+    },
+    {
+      "source": "du-ni-[ih",
+      "target": "(d)da-mu-si",
+      "weight": 0.3653
+    },
+    {
+      "source": "(d)in-šu-uš-n[a-ak]",
+      "target": "(d)ha-te-ri-iš-nu-me",
+      "weight": 0.3799
+    },
+    {
+      "source": "[hu]-ut2-tah",
+      "target": "te-la-ak-li",
+      "weight": 0.3633
+    },
+    {
+      "source": "ta-[ak]-me",
+      "target": "(d)pi-ni-gìr",
+      "weight": 0.3874
+    },
+    {
+      "source": "[ri?-im?]-mu-u[m",
+      "target": "ša-qu-tu4",
+      "weight": 0.3616
+    },
+    {
+      "source": "hu]-uh-tah",
+      "target": "hu-tu4-un-ra",
+      "weight": 0.4102
+    },
+    {
+      "source": "(d)[…",
+      "target": "ku-ur-ru",
+      "weight": 0.3726
+    },
+    {
+      "source": "li?-ki?-ri?-en?",
+      "target": "[pi-el]",
+      "weight": 0.3634
+    },
+    {
+      "source": "mu-ur-ta-ah",
+      "target": "ia-ak",
+      "weight": 0.3575
+    },
+    {
+      "source": "lu-bu-ru-uh",
+      "target": "ir-mu",
+      "weight": 0.4346
+    },
+    {
+      "source": "hi-ih-ni]",
+      "target": "dur-na-ah-u2-te-{na}?",
+      "weight": 0.358
+    },
+    {
+      "source": "(d)zu-un-ki-ir-ri-ša-ar-ra",
+      "target": "tu4-up-pi-me",
+      "weight": 0.416
+    },
+    {
+      "source": "ru-ri-na",
+      "target": "hu-uš-ti-in",
+      "weight": 0.3595
+    }
+  ]
+}

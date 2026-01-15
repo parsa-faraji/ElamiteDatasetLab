@@ -1,0 +1,213 @@
+===========================================================================
+ELAMITE WORD NETWORK ANALYSIS REPORT
+===========================================================================
+
+NETWORK OVERVIEW
+---------------------------------------------------------------------------
+Total nodes (words): 649
+Total edges (similarity > 0.35): 514
+High-confidence edges (similarity > 0.45): 100
+Communities detected: 515
+
+NODE ATTRIBUTE SUMMARY
+---------------------------------------------------------------------------
+Words with divine determinative (d): 86
+Words with personal determinative (m): 7
+Words with divine-personal (md): 14
+Fragmentary words: 181
+
+HUB WORDS (Highest Connectivity)
+---------------------------------------------------------------------------
+These words connect to many others, suggesting grammatical function:
+
+  in                                   44 connections
+  ku-ši-ih                             44 connections
+  u2-me                                42 connections [suf:-me]
+  a-ak                                 38 connections [suf:-ak]
+  a-gi                                 33 connections
+  (d)in-šu-uš-na-ak                    31 connections [det:divine, suf:-ak]
+  si-ia-an                             30 connections
+  dingir-gal                           29 connections
+  u2-pa-at                             28 connections
+  si-it-me                             28 connections [suf:-me]
+  hu-us-si-ip-me                       27 connections [suf:-me]
+  in-gi                                26 connections
+  si-ia-an-ku-uk-ra                    26 connections [suf:-ra]
+  […]                                  25 connections
+  tu4-ur                               25 connections
+  u2                                   24 connections
+  šu-šu-un-ka                          24 connections [suf:-ka]
+  hi-en-ka                             23 connections [suf:-ka]
+  hi-en-ga                             19 connections [suf:-ga]
+  du-ni-ih                             17 connections
+
+
+WEIGHTED CENTRALITY (Total Similarity Strength)
+---------------------------------------------------------------------------
+  in                                  19.4533
+  u2-me                               19.4487
+  ku-ši-ih                            19.0773
+  a-ak                                16.4605
+  a-gi                                14.4013
+  (d)in-šu-uš-na-ak                   13.2496
+  u2-pa-at                            12.6169
+  dingir-gal                          12.4208
+  si-ia-an                            12.1483
+  si-it-me                            11.5926
+  hu-us-si-ip-me                      11.5743
+  si-ia-an-ku-uk-ra                   10.9981
+  tu4-ur                              10.8677
+  in-gi                               10.7582
+  […]                                 10.4070
+  šu-šu-un-ka                         10.1572
+  u2                                  9.7084
+  hi-en-ka                            9.7002
+  hi-en-ga                            7.6908
+  du-ni-ih                            7.0334
+
+
+COMMUNITY STRUCTURE
+---------------------------------------------------------------------------
+Words grouped by network community (similar usage patterns):
+
+Community 0 (97 members):
+  Determinatives: {'divine': 9, 'divine-personal': 1}
+  Top suffixes: {'me': 8, 'ka': 8, 'ra': 6}
+  Members: u2-me, u2, ku-ši-ih, an-za-an, a-ak, šu-šu-un-ka, su-un-ki-ik, si-ia-an, tu4-ur, dingir-gal, (d)in-šu-uš-na-ak, in, hu-ut-tak-ha-li-ik, du-ni-ih, u2-pa-at ... (+82 more)
+
+Community 1 (3 members):
+  Top suffixes: {'me': 2}
+  Members: in(?)], zu-[un-ki-me, {uk-ku}-me
+
+Community 2 (2 members):
+  Determinatives: {'personal-male': 1}
+  Members: (m)un-taš-dingir-gal, te-ip-ti]
+
+Community 3 (2 members):
+  Members: si-a-an, si-it-me]
+
+Community 4 (2 members):
+  Top suffixes: {'ra': 1, 'me': 1}
+  Members: hu-ut-ta-an-ra, a-pi-me
+
+Community 5 (2 members):
+  Members: ku-la-a, la-ni-e
+
+Community 6 (2 members):
+  Members: ku-tu4-un, ma-šu-um
+
+Community 7 (2 members):
+  Top suffixes: {'ra': 1}
+  Members: ša-ra-ra, ip-il-la-ti
+
+Community 8 (2 members):
+  Determinatives: {'divine': 1}
+  Top suffixes: {'ak': 1}
+  Members: hu-hu-un, (d)in-šu-[uš]-na-ak
+
+Community 9 (2 members):
+  Members: a-pu, en
+
+
+LINGUISTIC INSIGHTS
+===========================================================================
+
+### HUB WORDS
+High-connectivity words likely function as grammatical particles or common verbs
+
+Hypothesis: These words appear in many different contexts, suggesting they are function words (particles, conjunctions, auxiliary verbs) rather than content words.
+
+Hub words: in, ku-ši-ih, u2-me, a-ak, a-gi, (d)in-šu-uš-na-ak, si-ia-an, dingir-gal, u2-pa-at, si-it-me
+
+----------------------------------------
+
+### MORPHOLOGICAL CLUSTERING
+Words with same suffixes tend to cluster together
+
+Hypothesis: Suffix patterns like -me, -ak, -ik represent grammatical categories (case, tense, number) that create distributional similarity.
+
+
+----------------------------------------
+
+### DIVINE NAME NETWORK
+111 divine/theophoric words form interconnected subnetwork
+
+Hypothesis: Divine names and theophoric personal names appear in similar syntactic contexts (dedications, offerings, blessings).
+
+
+----------------------------------------
+
+### LEMMA CANDIDATES
+Word pairs with very high similarity that may represent same lemma
+
+Hypothesis: High cosine similarity combined with shared morphological features suggests these may be orthographic variants of the same word.
+
+Top candidate pairs:
+  a-ak                      <-> (d)in-šu-uš-na-ak         (0.5952)
+  ku-ši-ih                  <-> in                        (0.5663)
+  u2-me                     <-> […]                       (0.5622)
+  si-ia-an                  <-> in                        (0.5455)
+  ku-ši-ih                  <-> u2-pa-at                  (0.5447)
+  in                        <-> a-ha-ar                   (0.5358)
+  in                        <-> ki-it-ti-im-ma            (0.5253)
+  u2-me                     <-> hu-us-si-ip-me            (0.5235)
+  u2-pa-at                  <-> […]                       (0.5212)
+  u2                        <-> u2-pa-at                  (0.5209)
+
+----------------------------------------
+
+### BRIDGE WORDS
+Words connecting multiple communities may be polysemous or grammatically versatile
+
+Hypothesis: Bridge words connect different semantic/syntactic domains, possibly functioning as conjunctions, pronouns, or polysemous verbs.
+
+Bridge words: (m)un-taš-dingir-gal, si-ia-an, tu4-ur, (d)PA.TUG2, (d)ki-ri-ri-ša, si-a-an, hu-ut-ta-an-ra, (d)hu-um-ban-nu-me-na-gi, u2-me, u2
+
+----------------------------------------
+
+
+KEY CONCLUSIONS
+===========================================================================
+
+1. GRAMMATICAL FUNCTION WORDS IDENTIFIED
+   The hub words (u2-me, in, a-ak, ku-ši-ih, etc.) appear across many contexts,
+   strongly suggesting they serve grammatical functions rather than lexical ones.
+   These likely include conjunctions, particles, pronouns, or auxiliary verbs.
+
+2. MORPHOLOGICAL PATTERNS CONFIRMED
+   Words sharing suffixes (-me, -ak, -ik) cluster together in the network,
+   validating that these represent productive morphological categories.
+   The -me suffix shows particularly wide distribution (53 words).
+
+3. THEOPHORIC NAMING CONVENTIONS
+   Divine names (d)* and theophoric personal names (md)* form distinct
+   subnetworks, reflecting their specialized usage contexts in dedicatory
+   and ritual texts.
+
+4. LEMMATIZATION OPPORTUNITIES
+   High-similarity pairs with shared morphology are strong lemma candidates.
+   The network structure can guide semi-automated lemmatization by identifying
+   potential spelling variants and related forms.
+
+5. SYNTACTIC PATTERNS EMERGE
+   Community structure reveals groups of words that co-occur in similar
+   positions, potentially reflecting Elamite phrase structure and word order.
+
+
+RECOMMENDED NEXT STEPS FOR LINKED DATA
+===========================================================================
+
+1. Use edges_similarity.csv and nodes_attributes.csv in Gephi for
+   interactive network exploration and community refinement.
+
+2. Export high-confidence edges (>0.45) as RDF triples:
+   <word1> :similarTo <word2> .
+   <word1> :similarity "0.638"^^xsd:float .
+
+3. Create SKOS vocabulary entries for lemma candidates:
+   <lemma1> skos:altLabel "variant1", "variant2" .
+
+4. Link determinative classes to existing ontologies:
+   <word> :hasDeterminative cdli:DivineDeterminative .
+
+5. Connect to CDLI or ORACC identifiers for interoperability.

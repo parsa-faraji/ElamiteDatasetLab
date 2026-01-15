@@ -1,0 +1,107 @@
+{
+  "corpus": {
+    "documents": 85,
+    "tokens": 2582,
+    "vocabulary": 649
+  },
+  "network": {
+    "nodes": 649,
+    "edges_high": 100,
+    "edges_medium": 514,
+    "communities": 515
+  },
+  "hub_words": [
+    {
+      "word": "in",
+      "degree": 44
+    },
+    {
+      "word": "ku-ši-ih",
+      "degree": 44
+    },
+    {
+      "word": "u2-me",
+      "degree": 42
+    },
+    {
+      "word": "a-ak",
+      "degree": 38
+    },
+    {
+      "word": "a-gi",
+      "degree": 33
+    },
+    {
+      "word": "(d)in-šu-uš-na-ak",
+      "degree": 31
+    },
+    {
+      "word": "si-ia-an",
+      "degree": 30
+    },
+    {
+      "word": "dingir-gal",
+      "degree": 29
+    },
+    {
+      "word": "u2-pa-at",
+      "degree": 28
+    },
+    {
+      "word": "si-it-me",
+      "degree": 28
+    }
+  ],
+  "top_similarities": [
+    {
+      "word1": "a-ak",
+      "word2": "tu4-ur",
+      "score": 0.6384
+    },
+    {
+      "word1": "u2-me",
+      "word2": "in",
+      "score": 0.6216
+    },
+    {
+      "word1": "u2-me",
+      "word2": "u2-pa-at",
+      "score": 0.6177
+    },
+    {
+      "word1": "a-ak",
+      "word2": "(d)in-šu-uš-na-ak",
+      "score": 0.5952
+    },
+    {
+      "word1": "u2-me",
+      "word2": "ku-ši-ih",
+      "score": 0.5883
+    },
+    {
+      "word1": "in",
+      "word2": "hu-us-si-ip-me",
+      "score": 0.5709
+    },
+    {
+      "word1": "ku-ši-ih",
+      "word2": "in",
+      "score": 0.5663
+    },
+    {
+      "word1": "u2-me",
+      "word2": "[…]",
+      "score": 0.5622
+    },
+    {
+      "word1": "u2-me",
+      "word2": "a-ak",
+      "score": 0.5591
+    },
+    {
+      "word1": "in",
+      "word2": "si-it-me",
+      "score": 0.5478
+    }
+  ]
+}

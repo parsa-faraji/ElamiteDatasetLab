@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elamite Word Network Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+        #sidebar {
+            width: 320px;
+            background: #16213e;
+            padding: 20px;
+            overflow-y: auto;
+            border-right: 1px solid #0f3460;
+        }
+        #graph-container {
+            flex: 1;
+            position: relative;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+            color: #e94560;
+        }
+        h2 {
+            font-size: 1.1em;
+            margin: 20px 0 10px 0;
+            color: #0f3460;
+            border-bottom: 1px solid #0f3460;
+            padding-bottom: 5px;
+            color: #e94560;
+        }
+        .subtitle {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        .stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #0f3460;
+        }
+        .stat-label {
+            color: #aaa;
+        }
+        .stat-value {
+            color: #e94560;
+            font-weight: bold;
+        }
+        .controls {
+            margin: 15px 0;
+        }
+        .control-group {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            font-size: 0.85em;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+        input[type="range"] {
+            width: 100%;
+            accent-color: #e94560;
+        }
+        select, button {
+            width: 100%;
+            padding: 8px;
+            background: #0f3460;
+            border: 1px solid #1a1a2e;
+            color: #eee;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e94560;
+        }
+        .legend {
+            margin-top: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            font-size: 0.85em;
+        }
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        #node-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #0f3460;
+            border-radius: 8px;
+            display: none;
+        }
+        #node-info.active {
+            display: block;
+        }
+        #node-info h3 {
+            color: #e94560;
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+        .neighbor-list {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.85em;
+        }
+        .neighbor-item {
+            padding: 4px 0;
+            border-bottom: 1px solid #16213e;
+            display: flex;
+            justify-content: space-between;
+        }
+        .neighbor-item:hover {
+            color: #e94560;
+            cursor: pointer;
+        }
+        .tooltip {
+            position: absolute;
+            background: #16213e;
+            border: 1px solid #e94560;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            pointer-events: none;
+            z-index: 1000;
+            max-width: 250px;
+        }
+        .search-box {
+            margin: 10px 0;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 8px;
+            background: #0f3460;
+            border: 1px solid #1a1a2e;
+            color: #eee;
+            border-radius: 4px;
+        }
+        .hub-list {
+            font-size: 0.85em;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        .hub-item {
+            padding: 4px 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+        .hub-item:hover {
+            color: #e94560;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>Elamite Word Network</h1>
+            <p class="subtitle">UntN-Nasu Collection Word2Vec Analysis</p>
+
+            <div id="stats">
+                <div class="stat">
+                    <span class="stat-label">Nodes</span>
+                    <span class="stat-value" id="node-count">-</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Edges</span>
+                    <span class="stat-value" id="edge-count">-</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Avg. Similarity</span>
+                    <span class="stat-value" id="avg-sim">-</span>
+                </div>
+            </div>
+
+            <h2>Controls</h2>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Similarity Threshold: <span id="threshold-value">0.35</span></label>
+                    <input type="range" id="threshold" min="0.25" max="0.55" step="0.01" value="0.35">
+                </div>
+                <div class="control-group">
+                    <label>Node Size</label>
+                    <select id="node-size">
+                        <option value="degree">By Degree (Connections)</option>
+                        <option value="strength">By Strength (Weighted)</option>
+                        <option value="uniform">Uniform</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Color By</label>
+                    <select id="color-by">
+                        <option value="determinative">Determinative Type</option>
+                        <option value="suffix">Suffix Pattern</option>
+                        <option value="community">Community</option>
+                    </select>
+                </div>
+                <div class="search-box">
+                    <label>Search Word</label>
+                    <input type="text" id="search" placeholder="Type to search...">
+                </div>
+                <button id="reset-view">Reset View</button>
+            </div>
+
+            <h2>Top Hub Words</h2>
+            <div class="hub-list" id="hub-list"></div>
+
+            <h2>Legend</h2>
+            <div class="legend" id="legend"></div>
+
+            <div id="node-info">
+                <h3 id="selected-word"></h3>
+                <div class="stat">
+                    <span class="stat-label">Connections</span>
+                    <span class="stat-value" id="selected-degree">-</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Determinative</span>
+                    <span class="stat-value" id="selected-det">-</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Suffix</span>
+                    <span class="stat-value" id="selected-suffix">-</span>
+                </div>
+                <h4 style="margin-top: 10px; font-size: 0.9em;">Similar Words:</h4>
+                <div class="neighbor-list" id="neighbor-list"></div>
+            </div>
+        </div>
+        <div id="graph-container">
+            <svg id="graph"></svg>
+        </div>
+    </div>
+
+    <script>
+        // Color schemes
+        const determinativeColors = {
+            'divine': '#e94560',
+            'divine-personal': '#ff6b6b',
+            'personal-male': '#4ecdc4',
+            'personal-female': '#ffe66d',
+            'none': '#6c757d'
+        };
+
+        const suffixColors = {
+            'me': '#e94560',
+            'ak': '#4ecdc4',
+            'ik': '#ffe66d',
+            'ra': '#95e1d3',
+            'na': '#f38181',
+            'ni': '#aa96da',
+            'ka': '#fcbad3',
+            'ir': '#a8d8ea',
+            'none': '#6c757d'
+        };
+
+        // Load data from JSON file
+        async function loadData() {
+            try {
+                const response = await fetch('elamite_graph.json');
+                return await response.json();
+            } catch (e) {
+                console.error('Error loading data:', e);
+                // Fallback: try to load from embedded data
+                return null;
+            }
+        }
+
+        // Main visualization
+        async function initVisualization() {
+            const data = await loadData();
+            if (!data) {
+                document.getElementById('graph-container').innerHTML =
+                    '<p style="padding: 20px; color: #e94560;">Error loading data. Make sure elamite_graph.json is in the same directory.</p>';
+                return;
+            }
+
+            const svg = d3.select('#graph');
+            const container = document.getElementById('graph-container');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            // Process data
+            let nodes = data.nodes.map(n => ({
+                ...n,
+                id: n.word,
+                determinative: n.determinative || 'none',
+                suffix: n.suffix || 'none'
+            }));
+
+            let allEdges = data.edges;
+            let currentThreshold = 0.35;
+
+            // Create node lookup
+            const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+            // Compute node metrics
+            function computeMetrics(edges) {
+                const degree = new Map();
+                const strength = new Map();
+
+                nodes.forEach(n => {
+                    degree.set(n.id, 0);
+                    strength.set(n.id, 0);
+                });
+
+                edges.forEach(e => {
+                    degree.set(e.source, (degree.get(e.source) || 0) + 1);
+                    degree.set(e.target, (degree.get(e.target) || 0) + 1);
+                    strength.set(e.source, (strength.get(e.source) || 0) + e.weight);
+                    strength.set(e.target, (strength.get(e.target) || 0) + e.weight);
+                });
+
+                nodes.forEach(n => {
+                    n.degree = degree.get(n.id) || 0;
+                    n.strength = strength.get(n.id) || 0;
+                });
+
+                return { degree, strength };
+            }
+
+            // Filter edges by threshold
+            function filterEdges(threshold) {
+                return allEdges.filter(e => e.weight >= threshold);
+            }
+
+            // Simple community detection
+            function detectCommunities(edges) {
+                const adj = new Map();
+                nodes.forEach(n => adj.set(n.id, []));
+                edges.forEach(e => {
+                    adj.get(e.source)?.push({ node: e.target, weight: e.weight });
+                    adj.get(e.target)?.push({ node: e.source, weight: e.weight });
+                });
+
+                const labels = new Map();
+                nodes.forEach((n, i) => labels.set(n.id, i));
+
+                for (let iter = 0; iter < 10; iter++) {
+                    const shuffled = [...nodes].sort(() => Math.random() - 0.5);
+                    for (const node of shuffled) {
+                        const neighbors = adj.get(node.id) || [];
+                        if (neighbors.length === 0) continue;
+
+                        const labelWeights = new Map();
+                        for (const { node: neighbor, weight } of neighbors) {
+                            const label = labels.get(neighbor);
+                            labelWeights.set(label, (labelWeights.get(label) || 0) + weight);
+                        }
+
+                        let maxLabel = labels.get(node.id);
+                        let maxWeight = 0;
+                        for (const [label, weight] of labelWeights) {
+                            if (weight > maxWeight) {
+                                maxWeight = weight;
+                                maxLabel = label;
+                            }
+                        }
+                        labels.set(node.id, maxLabel);
+                    }
+                }
+
+                // Renumber communities
+                const uniqueLabels = [...new Set(labels.values())];
+                const labelMap = new Map(uniqueLabels.map((l, i) => [l, i]));
+                nodes.forEach(n => {
+                    n.community = labelMap.get(labels.get(n.id));
+                });
+            }
+
+            // Community colors
+            const communityColorScale = d3.scaleOrdinal(d3.schemeTableau10);
+
+            // Initialize
+            let edges = filterEdges(currentThreshold);
+            computeMetrics(edges);
+            detectCommunities(edges);
+
+            // Update stats
+            function updateStats(edges) {
+                document.getElementById('node-count').textContent = nodes.length;
+                document.getElementById('edge-count').textContent = edges.length;
+                const avgSim = edges.length > 0
+                    ? (edges.reduce((s, e) => s + e.weight, 0) / edges.length).toFixed(3)
+                    : '-';
+                document.getElementById('avg-sim').textContent = avgSim;
+            }
+            updateStats(edges);
+
+            // Update hub list
+            function updateHubList() {
+                const sorted = [...nodes].sort((a, b) => b.degree - a.degree).slice(0, 15);
+                const hubList = document.getElementById('hub-list');
+                hubList.innerHTML = sorted.map(n =>
+                    `<div class="hub-item" data-word="${n.id}">
+                        <span>${n.id}</span>
+                        <span>${n.degree}</span>
+                    </div>`
+                ).join('');
+
+                hubList.querySelectorAll('.hub-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        const word = item.dataset.word;
+                        highlightNode(word);
+                    });
+                });
+            }
+            updateHubList();
+
+            // Update legend
+            function updateLegend(colorBy) {
+                const legend = document.getElementById('legend');
+                let colors;
+                if (colorBy === 'determinative') {
+                    colors = determinativeColors;
+                } else if (colorBy === 'suffix') {
+                    colors = suffixColors;
+                } else {
+                    // Community - show top 5
+                    colors = {};
+                    for (let i = 0; i < 5; i++) {
+                        colors[`Community ${i}`] = communityColorScale(i);
+                    }
+                }
+
+                legend.innerHTML = Object.entries(colors).map(([name, color]) =>
+                    `<div class="legend-item">
+                        <div class="legend-color" style="background: ${color}"></div>
+                        <span>${name}</span>
+                    </div>`
+                ).join('');
+            }
+            updateLegend('determinative');
+
+            // Create SVG elements
+            const g = svg.append('g');
+
+            // Zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+            svg.call(zoom);
+
+            // Create links
+            let link = g.append('g')
+                .attr('class', 'links')
+                .selectAll('line');
+
+            // Create nodes
+            let node = g.append('g')
+                .attr('class', 'nodes')
+                .selectAll('circle');
+
+            // Create labels
+            let label = g.append('g')
+                .attr('class', 'labels')
+                .selectAll('text');
+
+            // Tooltip
+            const tooltip = d3.select('body').append('div')
+                .attr('class', 'tooltip')
+                .style('opacity', 0);
+
+            // Force simulation
+            const simulation = d3.forceSimulation()
+                .force('link', d3.forceLink().id(d => d.id).distance(100))
+                .force('charge', d3.forceManyBody().strength(-200))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(30));
+
+            // Get node color
+            function getNodeColor(node, colorBy) {
+                if (colorBy === 'determinative') {
+                    return determinativeColors[node.determinative] || determinativeColors['none'];
+                } else if (colorBy === 'suffix') {
+                    return suffixColors[node.suffix] || suffixColors['none'];
+                } else {
+                    return communityColorScale(node.community || 0);
+                }
+            }
+
+            // Get node size
+            function getNodeSize(node, sizeBy) {
+                if (sizeBy === 'degree') {
+                    return Math.max(4, Math.sqrt(node.degree) * 3);
+                } else if (sizeBy === 'strength') {
+                    return Math.max(4, Math.sqrt(node.strength) * 2);
+                }
+                return 6;
+            }
+
+            // Update visualization
+            function update() {
+                const colorBy = document.getElementById('color-by').value;
+                const sizeBy = document.getElementById('node-size').value;
+
+                // Filter to only show connected nodes
+                const connectedIds = new Set();
+                edges.forEach(e => {
+                    connectedIds.add(e.source.id || e.source);
+                    connectedIds.add(e.target.id || e.target);
+                });
+                const visibleNodes = nodes.filter(n => connectedIds.has(n.id));
+
+                // Update links
+                link = link.data(edges, d => `${d.source.id || d.source}-${d.target.id || d.target}`);
+                link.exit().remove();
+                link = link.enter()
+                    .append('line')
+                    .attr('stroke', '#0f3460')
+                    .attr('stroke-opacity', 0.6)
+                    .merge(link)
+                    .attr('stroke-width', d => Math.max(1, d.weight * 3));
+
+                // Update nodes
+                node = node.data(visibleNodes, d => d.id);
+                node.exit().remove();
+                node = node.enter()
+                    .append('circle')
+                    .call(d3.drag()
+                        .on('start', dragstarted)
+                        .on('drag', dragged)
+                        .on('end', dragended))
+                    .on('mouseover', showTooltip)
+                    .on('mouseout', hideTooltip)
+                    .on('click', selectNode)
+                    .merge(node)
+                    .attr('r', d => getNodeSize(d, sizeBy))
+                    .attr('fill', d => getNodeColor(d, colorBy))
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 1);
+
+                // Update labels (only for high-degree nodes)
+                const labelNodes = visibleNodes.filter(n => n.degree >= 20);
+                label = label.data(labelNodes, d => d.id);
+                label.exit().remove();
+                label = label.enter()
+                    .append('text')
+                    .attr('font-size', '10px')
+                    .attr('fill', '#fff')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', -12)
+                    .merge(label)
+                    .text(d => d.id);
+
+                // Update simulation
+                simulation.nodes(visibleNodes);
+                simulation.force('link').links(edges);
+                simulation.alpha(0.3).restart();
+            }
+
+            // Simulation tick
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                node
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                label
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            });
+
+            // Drag functions
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            // Tooltip functions
+            function showTooltip(event, d) {
+                tooltip.transition().duration(200).style('opacity', 0.9);
+                tooltip.html(`
+                    <strong>${d.id}</strong><br/>
+                    Connections: ${d.degree}<br/>
+                    Strength: ${d.strength.toFixed(3)}<br/>
+                    ${d.determinative !== 'none' ? `Determinative: ${d.determinative}<br/>` : ''}
+                    ${d.suffix !== 'none' ? `Suffix: -${d.suffix}` : ''}
+                `)
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY - 10) + 'px');
+            }
+
+            function hideTooltip() {
+                tooltip.transition().duration(500).style('opacity', 0);
+            }
+
+            // Select node
+            function selectNode(event, d) {
+                const info = document.getElementById('node-info');
+                info.classList.add('active');
+
+                document.getElementById('selected-word').textContent = d.id;
+                document.getElementById('selected-degree').textContent = d.degree;
+                document.getElementById('selected-det').textContent = d.determinative !== 'none' ? d.determinative : '-';
+                document.getElementById('selected-suffix').textContent = d.suffix !== 'none' ? `-${d.suffix}` : '-';
+
+                // Find neighbors
+                const neighbors = [];
+                edges.forEach(e => {
+                    const sourceId = e.source.id || e.source;
+                    const targetId = e.target.id || e.target;
+                    if (sourceId === d.id) {
+                        neighbors.push({ word: targetId, weight: e.weight });
+                    } else if (targetId === d.id) {
+                        neighbors.push({ word: sourceId, weight: e.weight });
+                    }
+                });
+                neighbors.sort((a, b) => b.weight - a.weight);
+
+                const neighborList = document.getElementById('neighbor-list');
+                neighborList.innerHTML = neighbors.slice(0, 15).map(n =>
+                    `<div class="neighbor-item" data-word="${n.word}">
+                        <span>${n.word}</span>
+                        <span>${n.weight.toFixed(3)}</span>
+                    </div>`
+                ).join('');
+
+                neighborList.querySelectorAll('.neighbor-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        highlightNode(item.dataset.word);
+                    });
+                });
+
+                // Highlight in visualization
+                highlightNode(d.id);
+            }
+
+            // Highlight node and neighbors
+            function highlightNode(nodeId) {
+                const neighborIds = new Set([nodeId]);
+                edges.forEach(e => {
+                    const sourceId = e.source.id || e.source;
+                    const targetId = e.target.id || e.target;
+                    if (sourceId === nodeId) neighborIds.add(targetId);
+                    if (targetId === nodeId) neighborIds.add(sourceId);
+                });
+
+                node.attr('opacity', d => neighborIds.has(d.id) ? 1 : 0.2);
+                link.attr('opacity', e => {
+                    const sourceId = e.source.id || e.source;
+                    const targetId = e.target.id || e.target;
+                    return sourceId === nodeId || targetId === nodeId ? 1 : 0.1;
+                });
+                label.attr('opacity', d => neighborIds.has(d.id) ? 1 : 0.2);
+
+                // Center on node
+                const targetNode = nodes.find(n => n.id === nodeId);
+                if (targetNode && targetNode.x && targetNode.y) {
+                    svg.transition().duration(500).call(
+                        zoom.transform,
+                        d3.zoomIdentity.translate(width/2 - targetNode.x, height/2 - targetNode.y)
+                    );
+                }
+            }
+
+            // Event listeners
+            document.getElementById('threshold').addEventListener('input', (e) => {
+                currentThreshold = parseFloat(e.target.value);
+                document.getElementById('threshold-value').textContent = currentThreshold.toFixed(2);
+                edges = filterEdges(currentThreshold);
+                computeMetrics(edges);
+                detectCommunities(edges);
+                updateStats(edges);
+                updateHubList();
+                update();
+            });
+
+            document.getElementById('color-by').addEventListener('change', (e) => {
+                updateLegend(e.target.value);
+                update();
+            });
+
+            document.getElementById('node-size').addEventListener('change', update);
+
+            document.getElementById('reset-view').addEventListener('click', () => {
+                node.attr('opacity', 1);
+                link.attr('opacity', 0.6);
+                label.attr('opacity', 1);
+                svg.transition().duration(500).call(
+                    zoom.transform,
+                    d3.zoomIdentity
+                );
+                document.getElementById('node-info').classList.remove('active');
+            });
+
+            document.getElementById('search').addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                if (query.length >= 2) {
+                    const matches = nodes.filter(n => n.id.toLowerCase().includes(query));
+                    if (matches.length > 0) {
+                        highlightNode(matches[0].id);
+                    }
+                }
+            });
+
+            // Initial render
+            update();
+        }
+
+        // Start
+        initVisualization();
+    </script>
+</body>
+</html>
