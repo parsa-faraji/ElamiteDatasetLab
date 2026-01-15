@@ -4,7 +4,7 @@
 
 **Word2Vec Network Analysis of Ancient Elamite Texts**
 
-*UntN-Nasu Collection | Linguistic Pattern Discovery*
+*UntN-Nasu Collection | Linguistic Pattern Discovery | Phrase Boundary Detection*
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-Academic-green.svg)](#license)
@@ -22,16 +22,108 @@ This project applies **Word2Vec word embeddings** and **network graph analysis**
 | Corpus Statistics | |
 |:---:|:---:|
 | **85** Documents | **2,582** Tokens |
-| **649** Unique Words | **514** Network Edges |
+| **649** Unique Words | **1,397** Combined Edges |
 
 </div>
 
 ---
 
-## Network Visualization
+## Bi-gram + Similarity Network Analysis
+
+### Methodology
+
+We combine two types of linguistic relationships:
+
+| Relationship Type | What it captures | Edge Weight |
+|:------------------|:-----------------|:------------|
+| **Syntagmatic (Bi-gram)** | Words appearing adjacent in text | Low (0.15 per occurrence) |
+| **Paradigmatic (Similarity)** | Words with similar distributions | High (cosine × 1.5) |
+| **Reinforced (Both)** | Fixed constructions | Combined |
+
+### Combined Network
+*Cyan = bi-gram edges, Red = similarity edges, Gold = reinforced (both)*
+
+<div align="center">
+<img src="bigram_similarity_network.png" alt="Combined Bi-gram + Similarity Network" width="850">
+</div>
+
+---
+
+### Fixed Constructions (Reinforced Edges)
+*32 word pairs that are BOTH adjacent AND distributionally similar*
+
+<div align="center">
+<img src="reinforced_constructions.png" alt="Reinforced Constructions" width="800">
+</div>
+
+---
+
+### Centrality Analysis
+*Eigenvector = connected to important words | Bridging = connects different clusters*
+
+<div align="center">
+<img src="centrality_comparison.png" alt="Centrality Comparison" width="850">
+</div>
+
+---
+
+### Edge Type Analysis
+*Distribution of syntagmatic vs paradigmatic relationships*
+
+<div align="center">
+<img src="edge_type_analysis.png" alt="Edge Type Analysis" width="850">
+</div>
+
+---
+
+### Document Stylometry (PCA)
+*Documents positioned by vocabulary usage patterns*
+
+<div align="center">
+<img src="document_pca_space.png" alt="Document PCA Space" width="750">
+</div>
+
+---
+
+## Key Findings
+
+### 1. Fixed Constructions Identified
+
+| Word Pair | Similarity | Interpretation |
+|:----------|:----------:|:---------------|
+| `(d)in-šu-uš-na-ak — a-ak` | 0.89 | Divine name + connective |
+| `dingir-gal — u2-me` | 0.81 | "Great god" + verbal marker |
+| `ku-ši-ih — (d)in-šu-uš-na-ak` | 0.81 | Grammatical + divine name |
+| `si-it-me — u2-me` | 0.77 | Verbal forms clustering |
+
+### 2. Clause Boundary Candidates
+
+| Word | Bridging Score | Hypothesis |
+|:-----|:--------------:|:-----------|
+| `ku-ši-ih` | 93.9 | Connects different clause types |
+| `a-ak` | 83.0 | **Conjunction** — joins clauses |
+| `u2-me` | 80.4 | Verbal element |
+
+### 3. Royal Title Formula
+
+```
+(m)un-taš-dingir-gal  ša-ak  an-za-an  šu-šu-un-ka  su-un-ki-ik
+[Royal name]          [?]    [Anshan]  [of Susa]    [king]
+```
+
+This bi-gram chain appears 66+ times — the standard royal titulary.
+
+### 4. The `-me` Suffix Class
+
+Words ending in `-me` form a tight distributional cluster, suggesting a **verbal/participial marker**:
+- `u2-me`, `si-it-me`, `ta-ak-me`, `hu-us-si-ip-me`
+
+---
+
+## Original Network Analysis
 
 ### Full Word Network
-*Node size = connectivity, Color = determinative type (divine, personal, other)*
+*Node size = connectivity, Color = determinative type*
 
 <div align="center">
 <img src="network_overview.png" alt="Elamite Word Network Overview" width="800">
@@ -40,7 +132,6 @@ This project applies **Word2Vec word embeddings** and **network graph analysis**
 ---
 
 ### Core Hub Words
-*The 30 most connected words form the grammatical backbone of the corpus*
 
 <div align="center">
 <img src="network_hub_subgraph.png" alt="Hub Word Subgraph" width="750">
@@ -49,7 +140,6 @@ This project applies **Word2Vec word embeddings** and **network graph analysis**
 ---
 
 ### Word Similarity Heatmap
-*Cosine similarity between the top 25 hub words*
 
 <div align="center">
 <img src="similarity_heatmap.png" alt="Similarity Heatmap" width="700">
@@ -58,7 +148,6 @@ This project applies **Word2Vec word embeddings** and **network graph analysis**
 ---
 
 ### Morphological Distribution
-*Suffix patterns and determinative types across the vocabulary*
 
 <div align="center">
 <img src="morphological_distribution.png" alt="Morphological Distribution" width="800">
@@ -66,57 +155,18 @@ This project applies **Word2Vec word embeddings** and **network graph analysis**
 
 ---
 
-### Community Structure
-*Words grouped by similar usage patterns*
+## Interactive Visualizations
 
-<div align="center">
-<img src="community_structure.png" alt="Word Communities" width="900">
-</div>
+| File | Description |
+|:-----|:------------|
+| **`visualize_network.html`** | Original similarity network explorer |
+| **`visualize_bigram_network.html`** | Bi-gram + similarity network with edge type filtering |
 
----
-
-## Key Findings
-
-### Hub Words (Grammatical Function Words)
-The most connected words likely serve grammatical functions:
-
-| Word | Connections | Hypothesis |
-|:-----|:-----------:|:-----------|
-| `in` | 44 | Conjunction or particle |
-| `ku-ši-ih` | 44 | High-frequency grammatical element |
-| `u2-me` | 42 | Verbal auxiliary (-me suffix) |
-| `a-ak` | 38 | Connective (-ak suffix) |
-| `a-gi` | 33 | Related grammatical function |
-
-### Morphological Patterns
-Suffix patterns show distributional coherence:
-
-| Suffix | Count | Possible Function |
-|:------:|:-----:|:------------------|
-| `-me` | 53 | Verbal/participial marker |
-| `-ra` | 33 | Locative or directional |
-| `-ak` | 23 | Genitive or connective |
-| `-ka` | 21 | Locative variant |
-
-### Highest Similarity Pairs
-Word pairs with strongest distributional similarity:
-
-```
-a-ak          <->  tu4-ur              : 0.638
-u2-me         <->  in                  : 0.622
-u2-pa-at      <->  u2-me               : 0.618
-(d)in-šu-uš-na-ak  <->  a-ak           : 0.595
-```
-
----
-
-## Interactive Visualization
-
-Open **`visualize_network.html`** in a browser for an interactive exploration:
-- Adjust similarity threshold in real-time
-- Color nodes by determinative, suffix, or community
+Open in browser to:
+- Toggle between edge types (bi-gram, similarity, reinforced)
+- Size nodes by eigenvector or bridging centrality
 - Search for specific words
-- Click nodes to explore their connections
+- Click nodes to explore connections
 
 ---
 
@@ -128,34 +178,49 @@ ElamiteDatasetLab/
 ├── Data & Models
 │   ├── texts/                          # 85 document text files
 │   ├── UntN-Nasu texts Word-level.csv  # Source data
-│   ├── elamite_word2vec.model          # Trained Word2Vec model
-│   └── word_similarities.csv           # Word similarity scores
+│   └── elamite_word2vec.model          # Trained Word2Vec model
 │
-├── Network Analysis
-│   ├── edges_similarity.csv            # Edge list for Gephi
+├── Network Analysis (Similarity)
+│   ├── edges_similarity.csv            # Similarity edge list
 │   ├── nodes_attributes.csv            # Node attributes
-│   ├── elamite_graph.json              # Full graph (JSON)
-│   ├── elamite_triples.nt              # RDF triples for linked data
-│   └── network_analysis_report.txt     # Detailed analysis
+│   └── elamite_graph.json              # Full similarity graph
+│
+├── Network Analysis (Bi-gram + Similarity)
+│   ├── bigram_similarity_edges.csv     # Combined edge list
+│   ├── nodes_centrality.csv            # Eigenvector & bridging scores
+│   ├── document_pca.csv                # Document stylometry
+│   └── bigram_similarity_graph.json    # Combined graph
 │
 ├── Visualizations
-│   ├── visualize_network.html          # Interactive D3.js visualization
-│   ├── network_overview.png            # Full network graph
-│   ├── network_hub_subgraph.png        # Core hub words
+│   ├── visualize_network.html          # Interactive (similarity)
+│   ├── visualize_bigram_network.html   # Interactive (combined)
+│   ├── bigram_similarity_network.png   # Combined network
+│   ├── reinforced_constructions.png    # Fixed constructions
+│   ├── centrality_comparison.png       # Eigenvector vs bridging
+│   ├── edge_type_analysis.png          # Edge distribution
+│   ├── document_pca_space.png          # Stylometry
+│   ├── network_overview.png            # Full network
+│   ├── network_hub_subgraph.png        # Hub words
 │   ├── similarity_heatmap.png          # Similarity matrix
-│   ├── morphological_distribution.png  # Suffix/determinative charts
-│   └── community_structure.png         # Word communities
+│   └── morphological_distribution.png  # Suffix stats
 │
 ├── Scripts
 │   ├── generate_txt_files.py           # CSV → text files
-│   ├── run_word2vec.py                 # Train Word2Vec model
+│   ├── run_word2vec.py                 # Train Word2Vec
 │   ├── analyze_embeddings.py           # Clustering analysis
-│   ├── build_network_graph.py          # Network graph builder
-│   └── create_visualizations.py        # Generate PNG figures
+│   ├── build_network_graph.py          # Similarity network
+│   ├── bigram_similarity_network.py    # Combined network
+│   ├── create_visualizations.py        # Similarity visualizations
+│   └── create_bigram_visualizations.py # Combined visualizations
 │
-└── Reports
-    ├── Elamite_Word2Vec_Report.md      # Full methodology report
-    └── embedding_insights.txt          # Pattern analysis
+├── Reports
+│   ├── LINGUISTIC_CONCLUSIONS.md       # Deep analysis findings
+│   ├── bigram_similarity_report.txt    # Combined network report
+│   ├── network_analysis_report.txt     # Similarity network report
+│   └── Elamite_Word2Vec_Report.md      # Methodology report
+│
+└── Linked Data
+    └── elamite_triples.nt              # RDF N-Triples
 ```
 
 ---
@@ -172,11 +237,15 @@ python3 run_word2vec.py
 # 3. Run embedding analysis
 python3 analyze_embeddings.py
 
-# 4. Build network graph and export data
+# 4. Build similarity network
 python3 build_network_graph.py
 
-# 5. Generate visualizations
+# 5. Build bi-gram + similarity network
+python3 bigram_similarity_network.py
+
+# 6. Generate all visualizations
 python3 create_visualizations.py
+python3 create_bigram_visualizations.py
 ```
 
 **Requirements:**
@@ -188,18 +257,11 @@ pip install gensim scikit-learn numpy matplotlib networkx
 
 ## Linked Data Export
 
-The project exports data ready for linked data representation:
+Ready for knowledge graph representation:
 
-- **`edges_similarity.csv`** — Import into Gephi for network exploration
-- **`elamite_triples.nt`** — RDF N-Triples format with similarity predicates
-- **`elamite_graph.json`** — JSON format for web applications
-
-Example RDF triple:
-```turtle
-<http://elamite.example.org/word/a-ak>
-    <http://elamite.example.org/ontology/similarTo>
-    <http://elamite.example.org/word/tu4-ur> .
-```
+- **`bigram_similarity_edges.csv`** — Import into Gephi with edge type column
+- **`elamite_triples.nt`** — RDF N-Triples format
+- **`nodes_centrality.csv`** — Node attributes for SPARQL
 
 ---
 
