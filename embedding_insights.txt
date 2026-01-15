@@ -1,0 +1,147 @@
+======================================================================
+ELAMITE WORD2VEC EMBEDDING ANALYSIS - INSIGHTS REPORT
+======================================================================
+
+OVERVIEW
+----------------------------------------------------------------------
+Total unique words: 649
+Vector dimensions: 100
+Training corpus: 85 documents, 2,582 tokens
+
+MORPHOLOGICAL PATTERN ANALYSIS
+----------------------------------------------------------------------
+Words grouped by morphological markers and their embedding coherence:
+
+Pattern: feminine_(f)
+  Count: 2 words
+  Avg internal similarity: 0.05290000140666962
+  Words: (f)na-pír-a-su, (f)na-pir2-a-su
+
+Pattern: ends_with_-ik
+  Count: 16 words
+  Avg internal similarity: 0.04490000009536743
+  Words: su-un-ki-ik, hu-ut-tak-ha-li-ik, zu-un-ki-ik, hu-ut-ta-ak-ha-li-ik, (d)hi-iš-mi-ti-ik, (d)hi-iš-mi-di-ik, ha-li-ik, su-un-ki]-ik, [hu]-ut2-tak-ha-li-ik, [h]a-li-ik ... (+6 more)
+
+Pattern: ends_with_-ak
+  Count: 23 words
+  Avg internal similarity: 0.03929999843239784
+  Words: ša-ak, a-ak, (d)in-šu-uš-na-ak, (d)in-šu-ši-na-ak, (d)u2-pur-ku-pa-ak, te-la-ak, (d)u2-pur-ku-ba-ak, [a-ak, […]-ak, ka?-ap-na-ak ... (+13 more)
+
+Pattern: personal_determinative_(m)
+  Count: 7 words
+  Avg internal similarity: 0.036400001496076584
+  Words: (m)un-taš-dingir-gal, (m)hu-ban-nu-me-na-ki, (m)un-taš-dingir-gal-me, (m)hu-ban-um-me-na-ki, (m)un-taš-dingir-gal-ki, (m)ki-, (m)un-t[aš]-dingir-gal
+
+Pattern: ends_with_-ir
+  Count: 10 words
+  Avg internal similarity: 0.032499998807907104
+  Words: (d)ki-la-ah-šu-pi-ir, (d)ru-hu-ra-te-ir, (d)na-ah-hu-un-te-ir, pi-ti-ir, su-un-ki-ir, la-an-si-ti-ir, ha-ta-am-ti-ir, ta-ri-ir, li-ki-ir, na-ah-hu-un-te-ir
+
+Pattern: contains_dingir
+  Count: 11 words
+  Avg internal similarity: 0.02850000001490116
+  Words: (m)un-taš-dingir-gal, dingir-gal, un-taš-dingir-gal, dingir-gal-me, (m)un-taš-dingir-gal-me, (m)un-taš-dingir-gal-ki, [dingir-gal, [dingir-gal], dingir-gal], (m)un-t[aš]-dingir-gal ... (+1 more)
+
+Pattern: ends_with_-me
+  Count: 53 words
+  Avg internal similarity: 0.02019999921321869
+  Words: u2-me, hu-us-si-ip-me, si-it-me, ta-ak-me, im-me, zu-un-ki-me, zi-it-me, su-un-ki-me, si-ia-an-i-me, um-me ... (+43 more)
+
+Pattern: ends_with_-na
+  Count: 15 words
+  Avg internal similarity: 0.01810000091791153
+  Words: li-na, ul-li-na, gi-ri-na, (d)in-na-na, pa-ap-pa-ra-na, il-li-na, ša-ar-ra-na, ta?-du?-ra-na, […]-ar-na, mi-ši-ma-na ... (+5 more)
+
+Pattern: ends_with_-ra
+  Count: 33 words
+  Avg internal similarity: 0.017400000244379044
+  Words: si-ia-an-ku-uk-ra, me-lu-uk-ra, la-ha-ak-ir-ra, si-a-an-ku-uk-ra, tu4-um-pa-an-ra, si-ia-an-ra, hu-ut-ta-an-ra, la-an-si-ti-ir-ra, ša-ra-ra, me-el-ka-an-ra ... (+23 more)
+
+Pattern: divine_determinative_(d)
+  Count: 86 words
+  Avg internal similarity: 0.012900000438094139
+  Words: (d)in-šu-uš-na-ak, (d)in-šu-ši-na-ak, (d)PA.TUG2, (d)ki-ri-ri-ša, (d)im, (d)30, (d)hu-ban-um-me-en-na-ki, (d)ši-mut, (d)pi-ni-gir3, (d)na-ah-hu-un-te ... (+76 more)
+
+Pattern: ends_with_-ni
+  Count: 16 words
+  Avg internal similarity: -0.0038999998942017555
+  Words: te-la-ak-ni, a-ni, du-ni-iš-ni, ta-ak-ni, gi-ri-ni, ša-tu4-uh-ni, hi-ih-ni, gi-nu-ni, ki-nu-ni, ši-in-ni ... (+6 more)
+
+Pattern: divine_determinative_(md)
+  Count: 14 words
+  Avg internal similarity: -0.012199999764561653
+  Words: (md)hu-um-ban-nu-me-na-gi, (md)hu-um-ban-nu-me-na-ki, (md)hu-ban-nu-me-na-gi, (md)hu-um-ban-nu-me-en-na-ki, (md)hu-ban-um-me-en-na-ki, (md)hu-ban-nu-me-na-ki, (md)hu-um-ba-nu-me-na-ki], (md)hu-um-ba-nu-me-na-[ki, (md)hu-um-ban-um-me-en-na-ki, (md)hu-um-ban-nu-me]-na-gi ... (+4 more)
+
+
+HIGHEST SIMILARITY WORD PAIRS
+----------------------------------------------------------------------
+These word pairs have the highest cosine similarity, suggesting
+they appear in very similar contexts and may share grammatical roles:
+
+  a-ak                           <-> tu4-ur                         : 0.6384
+  u2-me                          <-> in                             : 0.6216
+  u2-pa-at                       <-> u2-me                          : 0.6177
+  (d)in-šu-uš-na-ak              <-> a-ak                           : 0.5952
+  ku-ši-ih                       <-> u2-me                          : 0.5883
+  hu-us-si-ip-me                 <-> in                             : 0.5709
+  […]                            <-> u2-me                          : 0.5622
+  si-it-me                       <-> in                             : 0.5478
+  si-ia-an                       <-> in                             : 0.5455
+  si-ia-an-ku-uk-ra              <-> a-gi                           : 0.5453
+  hi-en-ka                       <-> a-gi                           : 0.5422
+  dingir-gal                     <-> u2-me                          : 0.5421
+  a-pu-un                        <-> u2-me                          : 0.5392
+  a-ha-ar                        <-> in                             : 0.5358
+  ki-it-ti-im-ma                 <-> in                             : 0.5253
+  šu-šu-un-ka                    <-> a-ak                           : 0.5249
+  u2                             <-> u2-pa-at                       : 0.5209
+  az-ki-it                       <-> u2-me                          : 0.5162
+  du-ni-ih                       <-> u2-me                          : 0.5116
+  in-gi                          <-> u2-me                          : 0.5031
+  im-me                          <-> a-gi                           : 0.5025
+  mu-ur-tah                      <-> dingir-gal                     : 0.5012
+  si-a-an-ku-uk-ra               <-> ku-ši-ih                       : 0.4995
+  hi-ih                          <-> a-pu-un                        : 0.4864
+  an-za-an                       <-> […]                            : 0.4854
+
+
+CLUSTER ANALYSIS HIGHLIGHTS
+----------------------------------------------------------------------
+Words grouped into 15 clusters based on embedding similarity.
+Clusters may represent:
+  - Words with similar syntactic roles
+  - Words appearing in similar constructions
+  - Semantically related terms
+
+Cluster 3 (28 words):
+  la-ha-ak-ir-ra, te-ip-ti, a-ha, la-an-si-ti-ir-ra, ša-ra-ra, um-me, (d)ša-la, ta-ah, su-un-ki-ir, hu-ut-ta-ak, [a-h]a-an, [š]u?-ut?-ta?, [šu-šu]-un-ka, šu-lu-me-en-[ka], [hu]-ut2-tah ...
+
+Cluster 6 (17 words):
+  (d)30, zu-un-ki-ip, […u2-pa-at, in-ti-ig-ga8, si-ma-aš2, up-kum-mi-ia, a, in-di-ig-ga4, ša-qu-tu4, ha-al-te-te, (d)ki-ri-ri-ša-me, 10, nu-ul-ki-ip-pi, DINGIR-GAL, (d)ha-te-ri-iš-nu-me ...
+
+Cluster 7 (29 words):
+  pi-el, (d)PA.TUG2, in-di-ig-ga, si-a-an, in-di-ik-ka, (d)na-ah-hu-un-te, (d)ru-hu-ra-te-ir, ni, (m)un-taš-dingir-gal-me, tuš, hi-še, (md)hu-ban-um-me-en-na-ki, [(d)in]-šu-uš-na-ak, [ku-ku]-un-nu-um, in-[ti-ik-ka ...
+
+Cluster 9 (21 words):
+  ku-ši-ih-ši-ma, (d)hu-um-ban-nu-me-na-gi, a-aš2-ta2, (d)hu-ban-nu-me-na-gi, [i], sa-ah-[ri], dingir-gal], [t]e-ip-ti, ta-ak-[me], (m)un-t[aš]-dingir-gal, ip-il-la-ti-ma, ku-ta-a, te-la-ak-[ni], ha-du, (md)hu-um-[ban-nu-me-na-gi ...
+
+Cluster 11 (14 words):
+  u2-me, ku-ši-ih, a-ak, šu-šu-un-ka, tu4-ur, dingir-gal, (d)in-šu-uš-na-ak, in, u2-pa-at, hu-us-si-ip-me, si-ia-an-ku-uk-ra, […], si-it-me, a-ha-ar
+
+
+KEY OBSERVATIONS
+----------------------------------------------------------------------
+1. Divine determinative words (d)* show internal similarity of 0.013
+2. Words ending in -ik (16) and -ak (23) may represent related morphological forms
+3. High-similarity pairs often share syllable patterns, suggesting
+   the model captures phonological/morphological regularities
+4. Clusters group words that appear in similar sentence positions,
+   potentially revealing Elamite syntactic patterns
+
+
+NEXT STEPS FOR ANALYSIS
+----------------------------------------------------------------------
+1. Review word_clusters.txt to identify semantically coherent groups
+2. Use word_similarities.csv to find potential lemma candidates
+3. Compare clusters with known Elamite grammatical categories
+4. Consider training on lemmatized text for refined embeddings
