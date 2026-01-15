@@ -1,0 +1,192 @@
+===========================================================================
+BI-GRAM + SIMILARITY NETWORK ANALYSIS REPORT
+===========================================================================
+
+METHODOLOGY
+---------------------------------------------------------------------------
+
+This analysis combines two types of linguistic relationships:
+
+1. SYNTAGMATIC (Bi-gram edges, low weight):
+   - Words that appear next to each other in the text
+   - Captures phrase structure and word order patterns
+   - Weight: 0.15 per occurrence
+
+2. PARADIGMATIC (Similarity edges, high weight):
+   - Words with similar distributional profiles (Word2Vec)
+   - Captures words that can substitute for each other
+   - Weight: cosine similarity * 1.5 (threshold >= 0.40)
+
+The hypothesis: Words in similar syntactic positions will cluster together.
+For example, objects of verbs, subjects, or verbal complements should form
+clusters even if they never appear adjacent in the corpus.
+
+
+NETWORK STATISTICS
+---------------------------------------------------------------------------
+Total nodes: 648
+Total edges: 1397
+  - Bi-gram only: 1174
+  - Similarity only: 191
+  - Reinforced (both): 32
+
+EIGENVECTOR CENTRALITY (Connected to Important Words)
+---------------------------------------------------------------------------
+High eigenvector centrality indicates words connected to other
+highly-connected words - likely core grammatical elements.
+
+  u2-me                               : 0.354014
+  ku-ši-ih                            : 0.278407
+  šu-šu-un-ka                         : 0.263003
+  an-za-an                            : 0.241858
+  dingir-gal                          : 0.239154
+  hu-us-si-ip-me                      : 0.218369
+  a-ak                                : 0.212654
+  in                                  : 0.209713
+  u2-pa-at                            : 0.204411
+  tu4-ur                              : 0.191369
+  (d)in-šu-uš-na-ak                   : 0.177019
+  u2                                  : 0.176232
+  hu-ut-tak-ha-li-ik                  : 0.173877
+  si-ia-an                            : 0.171279
+  (m)un-taš-dingir-gal                : 0.166497
+  a-gi                                : 0.166432
+  si-it-me                            : 0.162226
+  su-un-ki-ik                         : 0.150974
+  si-ia-an-ku-uk-ra                   : 0.148174
+  du-ni-ih                            : 0.142260
+
+
+BRIDGING CENTRALITY (Connects Different Clusters)
+---------------------------------------------------------------------------
+High bridging centrality indicates words that connect otherwise
+separate parts of the network - possibly polysemous words or
+words that appear in multiple construction types.
+
+  ku-ši-ih                            : 93.9184
+  a-ak                                : 82.9767
+  u2-me                               : 80.4471
+  si-ia-an                            : 49.1538
+  […]                                 : 47.2653
+  šu-šu-un-ka                         : 41.5000
+  u2-pa-at                            : 38.4545
+  in                                  : 38.1364
+  a-gi                                : 33.5385
+  u2                                  : 32.5294
+  si-ia-an-ku-uk-ra                   : 31.1111
+  ša-ak                               : 30.0000
+  su-un-ki-ik                         : 28.2857
+  (d)in-šu-uš-na-ak                   : 28.2500
+  du-ni-ih                            : 25.8000
+  tu4-ur                              : 24.0741
+  dingir-gal                          : 23.3793
+  a-ha-ar                             : 19.7000
+  si-ia-an-ku-uk                      : 17.8889
+  hi-en-ka                            : 17.8182
+
+
+REINFORCED EDGES (Both Bi-gram and Similarity)
+---------------------------------------------------------------------------
+These word pairs appear adjacent AND have high distributional
+similarity - strong candidates for fixed constructions.
+
+  hu-us-si-ip-me            -- ku-ši-ih                  (bigram: 4.50, sim: 0.67)
+  du-ni-ih                  -- in                        (bigram: 3.00, sim: 0.67)
+  a-ak                      -- dingir-gal                (bigram: 2.85, sim: 0.69)
+  si-it-me                  -- u2-me                     (bigram: 2.70, sim: 0.77)
+  tu4-ur                    -- u2-me                     (bigram: 2.55, sim: 0.74)
+  dingir-gal                -- u2-me                     (bigram: 2.25, sim: 0.81)
+  in                        -- si-ia-an-ku-uk-ra         (bigram: 2.10, sim: 0.77)
+  (d)in-šu-uš-na-ak         -- a-ak                      (bigram: 1.95, sim: 0.89)
+  a-gi                      -- si-ia-an                  (bigram: 1.65, sim: 0.76)
+  (d)in-šu-uš-na-ak         -- dingir-gal                (bigram: 1.05, sim: 0.76)
+  a-gi                      -- in-ti-ik-ka               (bigram: 1.05, sim: 0.63)
+  si-ia-an                  -- u2-pa-at                  (bigram: 0.90, sim: 0.74)
+  (d)in-šu-uš-na-ak         -- si-ia-an-ku-uk-ra         (bigram: 0.90, sim: 0.72)
+  hi-en-ka                  -- in-gi                     (bigram: 0.90, sim: 0.68)
+  a-gi                      -- dingir-gal                (bigram: 0.75, sim: 0.75)
+  in                        -- si-a-an-ku-uk-ra          (bigram: 0.75, sim: 0.73)
+  (d)in-šu-uš-na-ak         -- a-gi                      (bigram: 0.75, sim: 0.68)
+  (d)in-šu-uš-na-ak         -- ku-ši-ih                  (bigram: 0.60, sim: 0.81)
+  ku-ši-ih                  -- si-ia-an                  (bigram: 0.75, sim: 0.65)
+  […]                       -- u2-me                     (bigram: 0.45, sim: 0.84)
+  (d)in-šu-uš-na-ak         -- u2-me                     (bigram: 0.45, sim: 0.80)
+  ku-ši-ih                  -- u2                        (bigram: 0.60, sim: 0.64)
+  (d)PA.TUG2                -- u2-me                     (bigram: 0.45, sim: 0.62)
+  dingir-gal                -- si-ia-an-ku-uk-ra         (bigram: 0.30, sim: 0.70)
+  (d)in-šu-ši-na-ak         -- si-ia-an                  (bigram: 0.30, sim: 0.63)
+
+
+MOST FREQUENT BI-GRAMS
+---------------------------------------------------------------------------
+Sequential word pairs - potential phrase boundaries occur where
+bi-gram frequency drops significantly.
+
+  (m)un-taš-dingir-gal      -- ša-ak                     : 70
+  an-za-an                  -- šu-šu-un-ka               : 66
+  (m)un-taš-dingir-gal      -- u2                        : 64
+  an-za-an                  -- su-un-ki-ik               : 49
+  hu-ut-tak-ha-li-ik        -- u2-me                     : 37
+  hu-us-si-ip-me            -- u2-pa-at                  : 30
+  hu-us-si-ip-me            -- ku-ši-ih                  : 30
+  hi-ih                     -- tu4-ur                    : 27
+  (md)hu-um-ban-nu-me-na-gi -- ša-ak                     : 26
+  li-na                     -- te-la-ak-ni               : 23
+  si-ia-an                  -- šu-šu-un-ka               : 22
+  hi-ih                     -- si-it-me                  : 21
+  an-za-an                  -- zu-un-ki-ik               : 20
+  du-ni-ih                  -- in                        : 20
+  a-ak                      -- dingir-gal                : 19
+  ta-ak-me                  -- u2-me                     : 18
+  si-it-me                  -- u2-me                     : 18
+  ki-it-ti-im-ma            -- na-a                      : 17
+  tu4-ur                    -- u2-me                     : 17
+  dingir-gal                -- ku-ši-ih                  : 16
+  dingir-gal                -- u2-me                     : 15
+  ki-it-ti-im-ma            -- pi-el                     : 15
+  me-lu-uk-ra               -- na-a                      : 15
+  az-ki-it                  -- tu4-ur                    : 15
+  hu-šu-ia                  -- in-gi                     : 14
+
+
+PCA ANALYSIS - DOCUMENT VARIATION
+---------------------------------------------------------------------------
+Principal components capture systematic variation in word usage
+across documents.
+
+PC1 (explains 5.8% variance):
+  Positive: (d)in-šu-[uš]-na-ak, (d)in-šu-uš-n[a-ak, (d)in-šu-uš-n[a-ak], [az-ki-it, [hi-ih, [hu]-ut2-tah, [hu]-šu-ia, [la-ha-ak-ir-ra
+  Negative: ku-ši-ih, ša-ak, an-za-an, šu-šu-un-ka, si-ia-an, su-un-ki-ik, a-ak, te-la-ak-ni
+
+PC2 (explains 4.5% variance):
+  Positive: hu-hu-un, a-al, ha-al-ma-šu-um, ka-ak-pa-ah, ku-ši-ha, ni-im-ma, tu4-um-pa, pi-ti-ir
+  Negative: šu-šu-un-ka, ša-ak, an-za-an, tu4-ur, si-ia-an, si-it-me, ta-ak-me, az-ki-it
+
+PC3 (explains 3.9% variance):
+  Positive: hi-iš, me-el-ka-an-ra, a-ni, ak-ka, (d)in-šu-uš-na-ak-ri, (d)pi-el-ti-ya, (f)na-pir2-a-su, (f)na-pír-a-su
+  Negative: (d)in-šu-ši-na-ak-me, a-bu-ul-lu, ha-al-li, ha-ap-ti-iš, hi-el, hi-i-še, hu-ma-ka-ak, il-ki-ka
+
+
+
+LINGUISTIC HYPOTHESES
+===========================================================================
+
+1. PHRASE BOUNDARY DETECTION
+   - Look for positions where bi-gram frequency drops
+   - High-bridging words may mark clause boundaries
+   - Words with high eigenvector + low bridging are phrase-internal
+
+2. CONSTRUCTION IDENTIFICATION
+   - Reinforced edges (both bi-gram and similarity) indicate fixed phrases
+   - Similar eigenvector scores suggest similar syntactic roles
+   - Clusters of high-similarity words = paradigmatic classes (noun, verb, etc.)
+
+3. DOCUMENT VARIATION
+   - PC1 may capture genre or text type differences
+   - Words loading on same PC appear in similar document contexts
+   - Can identify text-specific vs. corpus-wide patterns
+
+4. LATENT SYNTACTIC CLASSES
+   - Words with similar bridging AND eigenvector profiles likely share
+     syntactic category (e.g., all verbs, all nouns)
+   - The "ball/cat" and "threw/gave" pattern should emerge in clusters

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elamite Bi-gram + Similarity Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            overflow: hidden;
+        }
+        #container { display: flex; height: 100vh; }
+        #sidebar {
+            width: 380px;
+            background: rgba(22, 33, 62, 0.95);
+            padding: 20px;
+            overflow-y: auto;
+            border-right: 2px solid #e94560;
+        }
+        #graph-container { flex: 1; position: relative; }
+        svg { width: 100%; height: 100%; }
+
+        h1 { font-size: 1.3em; color: #e94560; margin-bottom: 5px; }
+        h2 {
+            font-size: 1em;
+            margin: 25px 0 12px 0;
+            color: #e94560;
+            border-bottom: 1px solid #0f3460;
+            padding-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .subtitle { font-size: 0.8em; color: #888; margin-bottom: 15px; }
+
+        .methodology {
+            background: #0f3460;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.85em;
+            line-height: 1.5;
+        }
+        .methodology strong { color: #e94560; }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .stat-box {
+            background: #0f3460;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .stat-value { font-size: 1.4em; color: #e94560; font-weight: bold; }
+        .stat-label { font-size: 0.75em; color: #aaa; margin-top: 4px; }
+
+        .edge-type-legend {
+            display: flex;
+            gap: 15px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        .edge-legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 0.85em;
+        }
+        .edge-line {
+            width: 30px;
+            height: 3px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+        .bigram-line { background: #4ecdc4; }
+        .similarity-line { background: #e94560; }
+        .both-line { background: linear-gradient(90deg, #4ecdc4, #ffe66d, #e94560); }
+
+        .controls { margin: 15px 0; }
+        .control-group { margin: 12px 0; }
+        label { display: block; font-size: 0.85em; color: #aaa; margin-bottom: 5px; }
+        input[type="range"] { width: 100%; accent-color: #e94560; }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            background: #0f3460;
+            border: 1px solid #1a1a2e;
+            color: #eee;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        button:hover { background: #e94560; }
+        .btn-group { display: flex; gap: 8px; margin-top: 10px; }
+        .btn-group button { flex: 1; }
+
+        .reinforced-list {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.8em;
+            background: #0f3460;
+            border-radius: 6px;
+            padding: 10px;
+        }
+        .reinforced-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #16213e;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+        .reinforced-item:hover { color: #e94560; }
+        .reinforced-pair { flex: 1; }
+        .reinforced-scores { color: #888; font-size: 0.9em; }
+
+        #node-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #0f3460;
+            border-radius: 8px;
+            border-left: 3px solid #e94560;
+            display: none;
+        }
+        #node-info.active { display: block; }
+        #node-info h3 { color: #e94560; margin-bottom: 10px; word-break: break-all; }
+
+        .centrality-bars { margin: 10px 0; }
+        .centrality-bar {
+            margin: 8px 0;
+        }
+        .bar-label {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-bottom: 3px;
+        }
+        .bar-track {
+            height: 8px;
+            background: #16213e;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+        .eigen-fill { background: #e94560; }
+        .bridge-fill { background: #4ecdc4; }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(22, 33, 62, 0.95);
+            border: 1px solid #e94560;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            pointer-events: none;
+            z-index: 1000;
+            max-width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>Bi-gram + Similarity Network</h1>
+            <p class="subtitle">Syntagmatic + Paradigmatic Relationships</p>
+
+            <div class="methodology">
+                <strong>Syntagmatic (Bi-gram):</strong> Words appearing adjacent in text<br>
+                <strong>Paradigmatic (Similarity):</strong> Words with similar distributions<br>
+                <strong>Reinforced:</strong> Both adjacent AND similar = fixed constructions
+            </div>
+
+            <div class="stat-grid">
+                <div class="stat-box">
+                    <div class="stat-value" id="node-count">-</div>
+                    <div class="stat-label">Nodes</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="edge-count">-</div>
+                    <div class="stat-label">Edges</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="bigram-count">-</div>
+                    <div class="stat-label">Bi-gram Only</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="reinforced-count">-</div>
+                    <div class="stat-label">Reinforced</div>
+                </div>
+            </div>
+
+            <h2>Edge Types</h2>
+            <div class="edge-type-legend">
+                <div class="edge-legend-item">
+                    <div class="edge-line bigram-line"></div>
+                    <span>Bi-gram (sequential)</span>
+                </div>
+                <div class="edge-legend-item">
+                    <div class="edge-line similarity-line"></div>
+                    <span>Similarity (distributional)</span>
+                </div>
+                <div class="edge-legend-item">
+                    <div class="edge-line both-line"></div>
+                    <span>Reinforced (both)</span>
+                </div>
+            </div>
+
+            <h2>Controls</h2>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Show Edge Types</label>
+                    <select id="edge-filter">
+                        <option value="all">All Edges</option>
+                        <option value="reinforced">Reinforced Only (Fixed Constructions)</option>
+                        <option value="bigram">Bi-gram Only</option>
+                        <option value="similarity">Similarity Only</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Node Size By</label>
+                    <select id="node-size">
+                        <option value="eigenvector">Eigenvector Centrality</option>
+                        <option value="bridging">Bridging Centrality</option>
+                        <option value="degree">Degree</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Min Edge Weight: <span id="weight-value">0.3</span></label>
+                    <input type="range" id="weight-threshold" min="0.1" max="1.5" step="0.05" value="0.3">
+                </div>
+                <div class="btn-group">
+                    <button id="reset-view">Reset View</button>
+                    <button id="show-hubs">Show Hubs</button>
+                </div>
+            </div>
+
+            <h2>Reinforced Edges (Fixed Constructions)</h2>
+            <div class="reinforced-list" id="reinforced-list"></div>
+
+            <div id="node-info">
+                <h3 id="selected-word"></h3>
+                <div class="centrality-bars">
+                    <div class="centrality-bar">
+                        <div class="bar-label">Eigenvector Centrality</div>
+                        <div class="bar-track">
+                            <div class="bar-fill eigen-fill" id="eigen-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="centrality-bar">
+                        <div class="bar-label">Bridging Centrality</div>
+                        <div class="bar-track">
+                            <div class="bar-fill bridge-fill" id="bridge-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 15px; font-size: 0.85em;">
+                    <div><strong>Degree:</strong> <span id="info-degree">-</span></div>
+                    <div><strong>Bi-gram neighbors:</strong> <span id="info-bigram">-</span></div>
+                    <div><strong>Similar words:</strong> <span id="info-similar">-</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="graph-container">
+            <svg id="graph"></svg>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('bigram_similarity_graph.json');
+                return await response.json();
+            } catch (e) {
+                console.error('Error loading data:', e);
+                return null;
+            }
+        }
+
+        async function initVisualization() {
+            const data = await loadData();
+            if (!data) {
+                document.getElementById('graph-container').innerHTML =
+                    '<p style="padding: 20px; color: #e94560;">Error loading bigram_similarity_graph.json</p>';
+                return;
+            }
+
+            const svg = d3.select('#graph');
+            const container = document.getElementById('graph-container');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            // Process data
+            const nodes = data.nodes.map(n => ({...n}));
+            const allEdges = data.edges;
+
+            // Compute max values for normalization
+            const maxEigen = Math.max(...nodes.map(n => n.eigenvector));
+            const maxBridge = Math.max(...nodes.map(n => n.bridging));
+
+            // Update stats
+            document.getElementById('node-count').textContent = nodes.length;
+            document.getElementById('edge-count').textContent = allEdges.length;
+            document.getElementById('bigram-count').textContent =
+                allEdges.filter(e => e.type === 'bigram').length;
+            document.getElementById('reinforced-count').textContent =
+                allEdges.filter(e => e.type === 'both').length;
+
+            // Populate reinforced list
+            const reinforcedEdges = allEdges
+                .filter(e => e.type === 'both')
+                .sort((a, b) => b.total - a.total);
+
+            const reinforcedList = document.getElementById('reinforced-list');
+            reinforcedList.innerHTML = reinforcedEdges.map(e =>
+                `<div class="reinforced-item" data-source="${e.source}" data-target="${e.target}">
+                    <span class="reinforced-pair">${e.source} — ${e.target}</span>
+                    <span class="reinforced-scores">${e.total.toFixed(2)}</span>
+                </div>`
+            ).join('');
+
+            // Create SVG elements
+            const g = svg.append('g');
+
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 4])
+                .on('zoom', (event) => g.attr('transform', event.transform));
+            svg.call(zoom);
+
+            let link = g.append('g').attr('class', 'links').selectAll('line');
+            let node = g.append('g').attr('class', 'nodes').selectAll('circle');
+            let label = g.append('g').attr('class', 'labels').selectAll('text');
+
+            const tooltip = d3.select('body').append('div')
+                .attr('class', 'tooltip')
+                .style('opacity', 0);
+
+            const simulation = d3.forceSimulation()
+                .force('link', d3.forceLink().id(d => d.id).distance(80))
+                .force('charge', d3.forceManyBody().strength(-150))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(25));
+
+            function getEdgeColor(edge) {
+                if (edge.type === 'both') return '#ffe66d';
+                if (edge.type === 'bigram') return '#4ecdc4';
+                return '#e94560';
+            }
+
+            function getNodeSize(node, sizeBy) {
+                if (sizeBy === 'eigenvector') {
+                    return 5 + (node.eigenvector / maxEigen) * 25;
+                } else if (sizeBy === 'bridging') {
+                    return 5 + (node.bridging / maxBridge) * 25;
+                }
+                return 5 + Math.sqrt(node.degree) * 2;
+            }
+
+            function filterEdges(edges, filter, threshold) {
+                let filtered = edges.filter(e => e.total >= threshold);
+                if (filter === 'reinforced') {
+                    filtered = filtered.filter(e => e.type === 'both');
+                } else if (filter === 'bigram') {
+                    filtered = filtered.filter(e => e.type === 'bigram');
+                } else if (filter === 'similarity') {
+                    filtered = filtered.filter(e => e.type === 'similarity');
+                }
+                return filtered;
+            }
+
+            function update() {
+                const filter = document.getElementById('edge-filter').value;
+                const sizeBy = document.getElementById('node-size').value;
+                const threshold = parseFloat(document.getElementById('weight-threshold').value);
+
+                const edges = filterEdges(allEdges, filter, threshold);
+
+                // Get connected nodes
+                const connectedIds = new Set();
+                edges.forEach(e => {
+                    connectedIds.add(e.source.id || e.source);
+                    connectedIds.add(e.target.id || e.target);
+                });
+                const visibleNodes = nodes.filter(n => connectedIds.has(n.id));
+
+                // Update links
+                link = link.data(edges, d => `${d.source.id || d.source}-${d.target.id || d.target}`);
+                link.exit().remove();
+                link = link.enter()
+                    .append('line')
+                    .attr('stroke-opacity', 0.7)
+                    .merge(link)
+                    .attr('stroke', d => getEdgeColor(d))
+                    .attr('stroke-width', d => Math.max(1, d.total * 2));
+
+                // Update nodes
+                node = node.data(visibleNodes, d => d.id);
+                node.exit().remove();
+                node = node.enter()
+                    .append('circle')
+                    .call(d3.drag()
+                        .on('start', dragstarted)
+                        .on('drag', dragged)
+                        .on('end', dragended))
+                    .on('mouseover', showTooltip)
+                    .on('mouseout', hideTooltip)
+                    .on('click', selectNode)
+                    .merge(node)
+                    .attr('r', d => getNodeSize(d, sizeBy))
+                    .attr('fill', d => {
+                        if (d.eigenvector > maxEigen * 0.7) return '#e94560';
+                        if (d.bridging > maxBridge * 0.7) return '#4ecdc4';
+                        return '#6c757d';
+                    })
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 1.5);
+
+                // Update labels
+                const labelNodes = visibleNodes.filter(n =>
+                    n.eigenvector > maxEigen * 0.3 || n.bridging > maxBridge * 0.3
+                );
+                label = label.data(labelNodes, d => d.id);
+                label.exit().remove();
+                label = label.enter()
+                    .append('text')
+                    .attr('font-size', '9px')
+                    .attr('fill', '#fff')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', -12)
+                    .merge(label)
+                    .text(d => d.id);
+
+                simulation.nodes(visibleNodes);
+                simulation.force('link').links(edges);
+                simulation.alpha(0.3).restart();
+            }
+
+            simulation.on('tick', () => {
+                link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+                node.attr('cx', d => d.x).attr('cy', d => d.y);
+                label.attr('x', d => d.x).attr('y', d => d.y);
+            });
+
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x; d.fy = d.y;
+            }
+            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null; d.fy = null;
+            }
+
+            function showTooltip(event, d) {
+                const bigramCount = allEdges.filter(e =>
+                    e.type !== 'similarity' &&
+                    ((e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id)
+                ).length;
+                const simCount = allEdges.filter(e =>
+                    e.type !== 'bigram' &&
+                    ((e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id)
+                ).length;
+
+                tooltip.transition().duration(200).style('opacity', 0.95);
+                tooltip.html(`
+                    <strong>${d.id}</strong><br>
+                    Eigenvector: ${d.eigenvector.toFixed(4)}<br>
+                    Bridging: ${d.bridging.toFixed(2)}<br>
+                    Bi-gram edges: ${bigramCount}<br>
+                    Similarity edges: ${simCount}
+                `)
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY - 10) + 'px');
+            }
+
+            function hideTooltip() {
+                tooltip.transition().duration(500).style('opacity', 0);
+            }
+
+            function selectNode(event, d) {
+                const info = document.getElementById('node-info');
+                info.classList.add('active');
+                document.getElementById('selected-word').textContent = d.id;
+                document.getElementById('eigen-bar').style.width =
+                    (d.eigenvector / maxEigen * 100) + '%';
+                document.getElementById('bridge-bar').style.width =
+                    (d.bridging / maxBridge * 100) + '%';
+                document.getElementById('info-degree').textContent = d.degree;
+
+                const bigramNeighbors = allEdges
+                    .filter(e => e.type !== 'similarity' &&
+                        ((e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id))
+                    .map(e => (e.source.id || e.source) === d.id ?
+                        (e.target.id || e.target) : (e.source.id || e.source))
+                    .slice(0, 5);
+                document.getElementById('info-bigram').textContent = bigramNeighbors.join(', ') || '-';
+
+                const simNeighbors = allEdges
+                    .filter(e => e.type !== 'bigram' &&
+                        ((e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id))
+                    .sort((a, b) => b.similarity - a.similarity)
+                    .map(e => (e.source.id || e.source) === d.id ?
+                        (e.target.id || e.target) : (e.source.id || e.source))
+                    .slice(0, 5);
+                document.getElementById('info-similar').textContent = simNeighbors.join(', ') || '-';
+
+                highlightNode(d.id);
+            }
+
+            function highlightNode(nodeId) {
+                const neighborIds = new Set([nodeId]);
+                allEdges.forEach(e => {
+                    const s = e.source.id || e.source;
+                    const t = e.target.id || e.target;
+                    if (s === nodeId) neighborIds.add(t);
+                    if (t === nodeId) neighborIds.add(s);
+                });
+
+                node.attr('opacity', d => neighborIds.has(d.id) ? 1 : 0.15);
+                link.attr('opacity', e => {
+                    const s = e.source.id || e.source;
+                    const t = e.target.id || e.target;
+                    return s === nodeId || t === nodeId ? 1 : 0.05;
+                });
+                label.attr('opacity', d => neighborIds.has(d.id) ? 1 : 0.15);
+            }
+
+            // Event listeners
+            document.getElementById('edge-filter').addEventListener('change', update);
+            document.getElementById('node-size').addEventListener('change', update);
+            document.getElementById('weight-threshold').addEventListener('input', (e) => {
+                document.getElementById('weight-value').textContent = e.target.value;
+                update();
+            });
+
+            document.getElementById('reset-view').addEventListener('click', () => {
+                node.attr('opacity', 1);
+                link.attr('opacity', 0.7);
+                label.attr('opacity', 1);
+                svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+                document.getElementById('node-info').classList.remove('active');
+            });
+
+            document.getElementById('show-hubs').addEventListener('click', () => {
+                document.getElementById('edge-filter').value = 'reinforced';
+                document.getElementById('weight-threshold').value = '0.3';
+                document.getElementById('weight-value').textContent = '0.3';
+                update();
+            });
+
+            reinforcedList.querySelectorAll('.reinforced-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const source = item.dataset.source;
+                    highlightNode(source);
+                });
+            });
+
+            update();
+        }
+
+        initVisualization();
+    </script>
+</body>
+</html>
